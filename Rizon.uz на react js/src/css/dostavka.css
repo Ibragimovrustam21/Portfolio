@@ -1,0 +1,25 @@
+.dostavka{
+    height: 80vh;
+}
+.about-menu{
+    height: 60% !important;
+    margin-right: 40px;
+}
+.dostavkaPage{
+    height: 100%;
+    background-color: #fff;
+    width: 70%;
+    padding: 20px 30px;
+}
+.dostavkaPage p{
+    letter-spacing: 1px;
+    color: rgb(177, 177, 177);
+}
+.dostavkaPage ul{
+    list-style: none;
+    padding: 0;
+}
+.dostavkaPage ul li{
+    color: rgb(177, 177, 177);
+    letter-spacing: 1px;
+}

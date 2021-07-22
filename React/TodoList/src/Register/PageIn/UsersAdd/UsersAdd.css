@@ -1,0 +1,59 @@
+.usersAdd_1{
+    max-height: 90px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 8px;
+    flex-wrap: wrap;
+}
+
+.editInput{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-height: 90px;
+    flex-wrap: wrap;
+    margin: 4px 0;
+}
+.editInput .input{
+    outline: none;
+    height: 30px;
+    border-radius: 6px;
+    padding: 0 10px;
+    border:1px solid #fff;
+}
+.User{
+    display: flex;
+    max-height: 90px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.User button {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 0;
+    cursor: pointer;
+    border: 1px solid #fff;
+    letter-spacing: 1px;
+    margin-left: 4px;
+    background-color: #fff;
+}
+.User h3{
+    max-width: 70%;
+    color: #fff;
+    letter-spacing: 1px;
+    margin: 10px;
+    overflow: hidden;
+}
+

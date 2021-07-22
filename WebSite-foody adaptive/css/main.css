@@ -1,0 +1,1733 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box; }
+
+.container-fluid {
+  padding: 0;
+  position: relative; }
+  .container-fluid .row {
+    padding: 0;
+    margin: 0; }
+  .container-fluid .dropdown-menu {
+    position: relative;
+    z-index: 9999; }
+    .container-fluid .dropdown-menu .dropdown-item {
+      padding: 0.5rem 1.5rem; }
+      .container-fluid .dropdown-menu .dropdown-item:hover {
+        background-color: #ff7404;
+        color: #fff;
+        transition: all 0.3s linear; }
+  .container-fluid .burchak {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: -8.5px;
+    left: 20px;
+    z-index: -1;
+    background-color: #fff;
+    transform: rotate(45deg);
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+    border-left: 1px solid rgba(0, 0, 0, 0.15); }
+  .container-fluid .chiziq {
+    height: 3px;
+    background-color: #ff7404;
+    width: 150px; }
+  .container-fluid .activer {
+    color: #f69f57 !important;
+    font-weight: bold; }
+  .container-fluid #navbar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 1000; }
+    .container-fluid #navbar .logo h2 {
+      letter-spacing: 2.5px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #fff;
+      cursor: pointer; }
+    .container-fluid #navbar .nav-link {
+      color: #fff;
+      font-size: 17px;
+      letter-spacing: 1px; }
+      .container-fluid #navbar .nav-link:hover {
+        color: #ff7404;
+        transition: all 0.5s linear; }
+    .container-fluid #navbar .navbar-button .btn {
+      background-color: #ff7404;
+      border-radius: 0;
+      color: #fff;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      font-size: 14px; }
+      .container-fluid #navbar .navbar-button .btn:hover {
+        background-color: #fff;
+        transition: all 0.3s linear;
+        color: #ff7404; }
+      .container-fluid #navbar .navbar-button .btn:hover a {
+        color: #ff7404;
+        transition: all 0.3s linear;
+        text-decoration: none; }
+      .container-fluid #navbar .navbar-button .btn a {
+        color: #fff;
+        text-decoration: none; }
+    .container-fluid #navbar .navbar .navbar-brand {
+      margin: 0;
+      color: #fff;
+      cursor: pointer;
+      font-size: 25px !important; }
+    .container-fluid #navbar .navbar .collapse ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .container-fluid #navbar .navbar .collapse ul li .dropdown-menu .burchak {
+        display: none; }
+      .container-fluid #navbar .navbar .collapse ul button {
+        width: 50%;
+        background-color: #ff7404;
+        border-radius: 0;
+        color: #fff;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        font-size: 14px; }
+        .container-fluid #navbar .navbar .collapse ul button:hover {
+          background-color: #fff;
+          transition: all 0.3s linear;
+          color: #ff7404; }
+        .container-fluid #navbar .navbar .collapse ul button:hover a {
+          color: #ff7404;
+          transition: all 0.3s linear;
+          text-decoration: none; }
+        .container-fluid #navbar .navbar .collapse ul button a {
+          color: #fff;
+          text-decoration: none; }
+  .container-fluid .contact .col-xl-7 {
+    padding: 40px 0;
+    height: 650px; }
+    .container-fluid .contact .col-xl-7 label {
+      color: #868e96;
+      font-size: 18px;
+      letter-spacing: 1px; }
+    .container-fluid .contact .col-xl-7 input {
+      width: 100%;
+      border-radius: 0;
+      padding: 20px; }
+    .container-fluid .contact .col-xl-7 textarea {
+      border-radius: 0; }
+    .container-fluid .contact .col-xl-7 .inputGroup {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+      width: 90%; }
+      .container-fluid .contact .col-xl-7 .inputGroup div {
+        margin: 0;
+        width: 45%; }
+    .container-fluid .contact .col-xl-7 .inputEmail {
+      width: 90%; }
+      .container-fluid .contact .col-xl-7 .inputEmail .btn {
+        margin-top: 20px;
+        background-color: #ff7404;
+        color: #fff;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        border-radius: 0;
+        padding: 10.8px 19.2px;
+        font-size: 13px; }
+  .container-fluid .contact .col-xl-5 {
+    padding: 80px 20px;
+    padding-left: 40px; }
+    .container-fluid .contact .col-xl-5 h3 {
+      letter-spacing: 1px; }
+    .container-fluid .contact .col-xl-5 .icon-address {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 70%;
+      margin: 0;
+      padding: 10px;
+      height: 80px;
+      margin-bottom: 10px; }
+      .container-fluid .contact .col-xl-5 .icon-address span {
+        margin: 0;
+        margin-top: 6px;
+        color: #ff7404; }
+      .container-fluid .contact .col-xl-5 .icon-address h5 {
+        margin: 0;
+        margin-left: 20px;
+        font-weight: lighter;
+        letter-spacing: 1px; }
+  .container-fluid .carousel {
+    position: relative;
+    overflow: hidden; }
+    .container-fluid .carousel:hover .carousel-control-prev,
+    .container-fluid .carousel:hover .carousel-control-next {
+      opacity: 1;
+      transition: all 0.5s linear; }
+    .container-fluid .carousel .carousel-inner .item-1 {
+      background: url("../img/hero_1.jpg") no-repeat;
+      background-size: 100%;
+      background-position: center; }
+    .container-fluid .carousel .carousel-inner .item-2 {
+      background: url("../img/hero_2.jpg") no-repeat;
+      background-size: 100%;
+      background-position: center; }
+    .container-fluid .carousel .carousel-inner .zb {
+      height: 100vh;
+      width: 100%;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 1; }
+      .container-fluid .carousel .carousel-inner .zb .qoraFon {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.35);
+        z-index: -1; }
+      .container-fluid .carousel .carousel-inner .zb .title-enjoy h1 {
+        width: 100%;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.877);
+        font-weight: bold; }
+      .container-fluid .carousel .carousel-inner .zb #delecious {
+        width: 100%; }
+      .container-fluid .carousel .carousel-inner .zb p {
+        font-size: 21px;
+        letter-spacing: 0.8px;
+        color: #fff;
+        font-weight: lighter;
+        font-family: serif; }
+      .container-fluid .carousel .carousel-inner .zb .btn {
+        border: 2px solid #fff;
+        border-radius: 0;
+        padding: 10px 20px;
+        color: #fff;
+        text-transform: uppercase;
+        font-family: serif;
+        font-size: 14px;
+        letter-spacing: 1.5px !important; }
+        .container-fluid .carousel .carousel-inner .zb .btn:hover {
+          background-color: #fff;
+          transition: all 0.3s linear;
+          color: #000; }
+    .container-fluid .carousel .indicator-1 li {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-top: -76px; }
+    .container-fluid .carousel .carousel-control-prev,
+    .container-fluid .carousel .carousel-control-next {
+      top: 50%;
+      bottom: 40%;
+      width: 40px;
+      height: 40px;
+      opacity: 0; }
+  .container-fluid .ustkiFon {
+    content: "";
+    width: 100%;
+    height: 240px;
+    z-index: 11111;
+    bottom: -240px;
+    background-color: #fff;
+    left: 0;
+    position: absolute;
+    -webkit-transform: skewY(-6deg);
+    -ms-transform: skewY(-6deg);
+    transform: skewY(-6deg);
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left; }
+  .container-fluid .card-icon {
+    z-index: 1; }
+    .container-fluid .card-icon .col-xl-3 {
+      height: 300px;
+      padding: 20px 40px;
+      background-color: #fff; }
+      .container-fluid .card-icon .col-xl-3 .icon-div {
+        margin: 0;
+        padding: 0;
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: #ff7404;
+        margin-top: 30px; }
+        .container-fluid .card-icon .col-xl-3 .icon-div .fa-fish {
+          transform: rotate(310deg); }
+        .container-fluid .card-icon .col-xl-3 .icon-div i {
+          font-size: 30px;
+          color: #fff; }
+      .container-fluid .card-icon .col-xl-3 h6 {
+        color: #ff7404;
+        letter-spacing: 1px;
+        font-weight: lighter; }
+      .container-fluid .card-icon .col-xl-3 p {
+        color: #868e96;
+        letter-spacing: 1px;
+        font-size: 15px; }
+  .container-fluid .restaurant {
+    height: 300px; }
+    .container-fluid .restaurant .col-xl-12 h1 {
+      letter-spacing: 1px;
+      font-weight: bold; }
+    .container-fluid .restaurant .col-xl-12 p {
+      width: 50%;
+      font-size: 17px;
+      color: #868e96;
+      letter-spacing: 1px; }
+  .container-fluid .res-img .col-xl-4 .boxImg .dishes {
+    height: 500px;
+    margin-top: 5px; }
+  .container-fluid .res-img .col-xl-4 .boxImg .img-thumbnail {
+    border: 0;
+    border-radius: 0; }
+  .container-fluid .res-about .col-md-6 p {
+    padding: 10px 40px !important;
+    margin: 30px 0;
+    letter-spacing: 1px;
+    color: #868e96 !important; }
+  .container-fluid .special-menu {
+    height: 250px; }
+    .container-fluid .special-menu .col-xl-12 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .container-fluid .special-menu .col-xl-12 h1 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: bold; }
+  .container-fluid .indicatorBlock {
+    height: 30px; }
+    .container-fluid .indicatorBlock .indicator-2 {
+      margin: 0; }
+      .container-fluid .indicatorBlock .indicator-2 li {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ff7404; }
+  .container-fluid .special-carusel .col-xl-12,
+  .container-fluid .special-carusel .col-lg-12,
+  .container-fluid .special-carusel .col-md-12,
+  .container-fluid .special-carusel .col-12,
+  .container-fluid .special-carusel .col-sm-12 {
+    height: auto; }
+    .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3,
+    .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4,
+    .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12,
+    .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6,
+    .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3,
+    .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3,
+    .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4,
+    .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12,
+    .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6,
+    .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3,
+    .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3,
+    .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4,
+    .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12,
+    .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6,
+    .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3,
+    .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3,
+    .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4,
+    .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12,
+    .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6,
+    .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3,
+    .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3,
+    .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4,
+    .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12,
+    .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6,
+    .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 {
+      border-radius: 5px;
+      padding: 5px;
+      margin: 0; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg {
+        height: 400px;
+        border-radius: 5px;
+        transition: all 0.3s linear;
+        cursor: pointer; }
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover {
+          background-size: 130%;
+          background-position: center;
+          transition: all 0.3s linear; }
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg:hover .imgBack .round,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg:hover .imgBack .round {
+          background-color: transparent;
+          transition: all 0.3s linear;
+          border: 2px solid #fff; }
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack,
+        .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack {
+          border-radius: 5px;
+          height: 100%;
+          width: 100%;
+          background-color: rgba(0, 0, 0, 0.277);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round {
+            height: 90px;
+            width: 90px;
+            background-color: #ff7404;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center; }
+            .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack .round p,
+            .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack .round p {
+              margin: 0;
+              color: #fff;
+              font-weight: bold;
+              letter-spacing: 1px; }
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .hoverImg .imgBack h4,
+          .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .hoverImg .imgBack h4 {
+            width: 100%;
+            height: 50px;
+            color: #fff;
+            letter-spacing: 1px;
+            font-weight: bold; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-1,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-1,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-1,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-1,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-1,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-1,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-1,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-1,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-1,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-1,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-1,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-1,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-1,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-1,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-1,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-1,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-1,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-1,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-1,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-1,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-1,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-1,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-1,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-1,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-1 {
+        background: url("../img/dishes_1.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-2,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-2,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-2,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-2,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-2,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-2,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-2,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-2,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-2,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-2,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-2,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-2,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-2,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-2,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-2,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-2,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-2,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-2,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-2,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-2,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-2,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-2,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-2,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-2,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-2 {
+        background: url("../img/dishes_2.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-3,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-3,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-3,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-3,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-3,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-3,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-3,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-3,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-3,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-3,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-3,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-3,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-3,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-3,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-3,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-3,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-3,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-3,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-3,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-3,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-3,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-3,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-3,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-3,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-3 {
+        background: url("../img/dishes_4.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-4,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-4,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-4,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-4,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-4,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-4,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-4,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-4,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-4,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-4,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-4,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-4,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-4,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-4,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-4,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-4,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-4,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-4,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-4,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-4,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-4,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-4,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-4,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-4,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-4 {
+        background: url("../img/dishes_6.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-5,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-5,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-5,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-5,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-5,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-5,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-5,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-5,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-5,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-5,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-5,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-5,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-5,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-5,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-5,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-5,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-5,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-5,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-5,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-5,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-5,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-5,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-5,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-5,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-5 {
+        background: url("../img/dishes_1.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-6,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-6,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-6,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-6,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-6,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-6,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-6,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-6,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-6,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-6,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-6,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-6,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-6,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-6,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-6,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-6,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-6,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-6,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-6,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-6,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-6,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-6,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-6,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-6,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-6 {
+        background: url("../img/dishes_8.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-7,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-7,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-7,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-7,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-7,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-7,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-7,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-7,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-7,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-7,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-7,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-7,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-7,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-7,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-7,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-7,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-7,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-7,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-7,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-7,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-7,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-7,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-7,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-7,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-7 {
+        background: url("../img/dishes_9.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-8,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-8,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-8,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-8,
+      .container-fluid .special-carusel .col-xl-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-8,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-8,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-8,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-8,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-8,
+      .container-fluid .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-8,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-8,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-8,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-8,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-8,
+      .container-fluid .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-8,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-8,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-8,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-8,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-8,
+      .container-fluid .special-carusel .col-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-8,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-xl-3 .dishes-8,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-md-4 .dishes-8,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-12 .dishes-8,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-sm-6 .dishes-8,
+      .container-fluid .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .col-lg-3 .dishes-8 {
+        background: url("../img/dishes_2.jpg") no-repeat;
+        background-position: center;
+        background-size: 100%; }
+  .container-fluid .carousel-chef .col-xl-12,
+  .container-fluid .carousel-chef .col-md-12,
+  .container-fluid .carousel-chef .col-lg-12 {
+    background-color: #f8f9fa;
+    padding: 0 30px !important; }
+    .container-fluid .carousel-chef .col-xl-12 .carousel .carousel-inner .carousel-item .row,
+    .container-fluid .carousel-chef .col-md-12 .carousel .carousel-inner .carousel-item .row,
+    .container-fluid .carousel-chef .col-lg-12 .carousel .carousel-inner .carousel-item .row {
+      height: 600px; }
+      .container-fluid .carousel-chef .col-xl-12 .carousel .carousel-inner .carousel-item .row .col-xl-4,
+      .container-fluid .carousel-chef .col-md-12 .carousel .carousel-inner .carousel-item .row .col-xl-4,
+      .container-fluid .carousel-chef .col-lg-12 .carousel .carousel-inner .carousel-item .row .col-xl-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #f8f9fa;
+        height: 550px; }
+        .container-fluid .carousel-chef .col-xl-12 .carousel .carousel-inner .carousel-item .row .col-xl-4 p,
+        .container-fluid .carousel-chef .col-md-12 .carousel .carousel-inner .carousel-item .row .col-xl-4 p,
+        .container-fluid .carousel-chef .col-lg-12 .carousel .carousel-inner .carousel-item .row .col-xl-4 p {
+          color: #868e96;
+          font-size: 16px; }
+    .container-fluid .carousel-chef .col-xl-12 .carousel .carousel-control-prev,
+    .container-fluid .carousel-chef .col-md-12 .carousel .carousel-control-prev,
+    .container-fluid .carousel-chef .col-lg-12 .carousel .carousel-control-prev {
+      left: -30px; }
+    .container-fluid .carousel-chef .col-xl-12 .carousel .carousel-control-next,
+    .container-fluid .carousel-chef .col-md-12 .carousel .carousel-control-next,
+    .container-fluid .carousel-chef .col-lg-12 .carousel .carousel-control-next {
+      right: -30px; }
+    .container-fluid .carousel-chef .col-xl-12 .carousel .carousel-control-prev,
+    .container-fluid .carousel-chef .col-xl-12 .carousel .carousel-control-next,
+    .container-fluid .carousel-chef .col-md-12 .carousel .carousel-control-prev,
+    .container-fluid .carousel-chef .col-md-12 .carousel .carousel-control-next,
+    .container-fluid .carousel-chef .col-lg-12 .carousel .carousel-control-prev,
+    .container-fluid .carousel-chef .col-lg-12 .carousel .carousel-control-next {
+      top: 40%;
+      color: #353535; }
+  .container-fluid .our-menu {
+    background-color: #f8f9fa; }
+    .container-fluid .our-menu .chiziq {
+      width: 100px; }
+  .container-fluid .img-info {
+    padding: 0 90px;
+    background-color: #f8f9fa; }
+    .container-fluid .img-info .col-xl-3 {
+      height: 250px;
+      background-color: #fff; }
+      .container-fluid .img-info .col-xl-3 h4 {
+        font-family: Arial, Helvetica, sans-serif;
+        letter-spacing: 0.8px; }
+      .container-fluid .img-info .col-xl-3 p {
+        color: #868e96;
+        letter-spacing: 0.8px;
+        margin-top: 15px; }
+      .container-fluid .img-info .col-xl-3 h3 {
+        color: #ff7404;
+        margin: 0; }
+      .container-fluid .img-info .col-xl-3 img {
+        height: 100%;
+        width: 100%; }
+  .container-fluid .testimonial-karusel .col-xl-6 .carousel .carousel-inner .carousel-item p {
+    font-size: 18px;
+    text-align: justify;
+    letter-spacing: 1px; }
+  .container-fluid .testimonial-karusel .col-xl-6 .carousel .carousel-inner .carousel-item .userBlock {
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; }
+    .container-fluid .testimonial-karusel .col-xl-6 .carousel .carousel-inner .carousel-item .userBlock .user {
+      margin: 0;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%; }
+      .container-fluid .testimonial-karusel .col-xl-6 .carousel .carousel-inner .carousel-item .userBlock .user img {
+        height: 100%;
+        border-radius: 50%; }
+    .container-fluid .testimonial-karusel .col-xl-6 .carousel .carousel-inner .carousel-item .userBlock .user-info {
+      margin: 0;
+      margin-left: 20px; }
+      .container-fluid .testimonial-karusel .col-xl-6 .carousel .carousel-inner .carousel-item .userBlock .user-info h5 {
+        margin: 0; }
+      .container-fluid .testimonial-karusel .col-xl-6 .carousel .carousel-inner .carousel-item .userBlock .user-info p {
+        font-weight: lighter;
+        font-family: sans-serif;
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin-bottom: 0;
+        color: #868e96; }
+  .container-fluid .card-food {
+    background-color: #f8f9fa; }
+    .container-fluid .card-food .col-xl-5 {
+      background-color: #f8f9fa;
+      padding: 0;
+      margin-bottom: 40px; }
+      .container-fluid .card-food .col-xl-5 .card {
+        border-radius: 0; }
+        .container-fluid .card-food .col-xl-5 .card img {
+          border-radius: 0;
+          height: 350px;
+          width: 100%; }
+        .container-fluid .card-food .col-xl-5 .card .card-body {
+          margin: 0; }
+          .container-fluid .card-food .col-xl-5 .card .card-body a {
+            text-decoration: none; }
+            .container-fluid .card-food .col-xl-5 .card .card-body a h5 {
+              color: #ff7404; }
+              .container-fluid .card-food .col-xl-5 .card .card-body a h5:hover {
+                transition: all 0.5s linear;
+                color: #04a3ff; }
+          .container-fluid .card-food .col-xl-5 .card .card-body p:nth-child(2) {
+            color: #868e96;
+            font-size: 14px; }
+            .container-fluid .card-food .col-xl-5 .card .card-body p:nth-child(2) span {
+              margin-right: 5px; }
+          .container-fluid .card-food .col-xl-5 .card .card-body p:nth-child(3) {
+            color: #868e96; }
+          .container-fluid .card-food .col-xl-5 .card .card-body .btn {
+            background-color: #ff7404;
+            color: #fff;
+            text-transform: uppercase;
+            border-radius: 0;
+            font-size: 14px;
+            letter-spacing: 1px;
+            padding: 8px 13px; }
+  .container-fluid .subscribe .col-xl-12 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 300px; }
+    .container-fluid .subscribe .col-xl-12 p {
+      color: #868e96;
+      letter-spacing: 1px;
+      font-size: 15px; }
+    .container-fluid .subscribe .col-xl-12 .forInput {
+      width: 550px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .container-fluid .subscribe .col-xl-12 .forInput .form-control {
+        height: 45px;
+        border-radius: 0; }
+      .container-fluid .subscribe .col-xl-12 .forInput .btn {
+        background-color: #ff7404;
+        color: #fff;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border: 0;
+        border-radius: 0;
+        font-size: 14px;
+        padding: 11px 20px; }
+  .container-fluid .footer .col-xl-4,
+  .container-fluid .footer .col-xl-3 {
+    padding: 30px; }
+    .container-fluid .footer .col-xl-4 h5,
+    .container-fluid .footer .col-xl-3 h5 {
+      letter-spacing: 1px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      margin-top: 30px; }
+    .container-fluid .footer .col-xl-4 p,
+    .container-fluid .footer .col-xl-3 p {
+      color: #868e96;
+      letter-spacing: 1px;
+      font-size: 15px;
+      margin-bottom: 30px; }
+    .container-fluid .footer .col-xl-4 a,
+    .container-fluid .footer .col-xl-3 a {
+      color: #ff7404;
+      display: block;
+      margin-bottom: 15px;
+      letter-spacing: 1px;
+      font-size: 15px; }
+      .container-fluid .footer .col-xl-4 a:hover,
+      .container-fluid .footer .col-xl-3 a:hover {
+        text-decoration: none;
+        color: #9e4904;
+        transition: all 0.8s linear; }
+    .container-fluid .footer .col-xl-4 .footer-icon span,
+    .container-fluid .footer .col-xl-3 .footer-icon span {
+      margin-right: 10px;
+      cursor: pointer;
+      color: #ff7404; }
+      .container-fluid .footer .col-xl-4 .footer-icon span:hover,
+      .container-fluid .footer .col-xl-3 .footer-icon span:hover {
+        color: #000;
+        transition: all 0.8s linear; }
+  .container-fluid .madeSite .col-xl-12 {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .container-fluid .madeSite .col-xl-12 p {
+      color: #868e96;
+      font-size: 15px; }
+      .container-fluid .madeSite .col-xl-12 p a {
+        color: #ff7404;
+        text-decoration: none; }
+        .container-fluid .madeSite .col-xl-12 p a:hover {
+          color: #9e4904;
+          transition: all 0.8s linear; }
+
+@media (min-width: 0) and (max-width: 446.9px) {
+  #navbar .col-xl-3,
+  #navbar .col-xl-4,
+  #navbar .col-xl-5 {
+    display: none; }
+  #navbar .navbar {
+    width: 100%;
+    background-color: green; }
+
+  .carousel .carousel-inner .item-1 {
+    background-size: 140% 100% !important; }
+  .carousel .carousel-inner .item-2 {
+    background-size: 140% 100% !important; }
+  .carousel .carousel-inner .zb {
+    height: 70vh !important; }
+    .carousel .carousel-inner .zb .qoraFon {
+      height: 100%;
+      width: 100%; }
+    .carousel .carousel-inner .zb .title-enjoy h1 {
+      font-size: 30px; }
+    .carousel .carousel-inner .zb p {
+      font-size: 16px !important;
+      text-align: center; }
+    .carousel .carousel-inner .zb .btn {
+      font-size: 10px;
+      padding: 8px 10px; }
+  .carousel .carousel-control-next,
+  .carousel .carousel-control-prev {
+    display: none; }
+
+  .restaurant {
+    height: 150px; }
+    .restaurant .col-12 h1 {
+      font-size: 20px; }
+    .restaurant .col-12 p {
+      font-size: 15px;
+      width: 100% !important;
+      margin: 0; }
+
+  .contact {
+    padding: 0 !important; }
+    .contact .col-12 {
+      height: auto !important; }
+      .contact .col-12 h3 {
+        font-size: 25px; }
+      .contact .col-12 .inputGroup {
+        flex-direction: column;
+        width: 100%; }
+        .contact .col-12 .inputGroup div {
+          width: 100% !important; }
+      .contact .col-12 .inputEmail {
+        width: 100%; }
+      .contact .col-12 .icon-address {
+        width: 100% !important; }
+        .contact .col-12 .icon-address span {
+          font-size: 20px; }
+        .contact .col-12 .icon-address h5 {
+          width: 100%; }
+    .contact .col-xl-5 {
+      padding: 0 16px !important; }
+
+  .special-menu {
+    height: 150px !important; }
+    .special-menu .col-12 .chiziq {
+      margin-top: 20px;
+      width: 80px; }
+    .special-menu .col-12 h1 {
+      font-size: 30px; }
+
+  .special-carusel .col-xl-12 .carousel .carousel-inner,
+  .special-carusel .col-md-12 .carousel .carousel-inner,
+  .special-carusel .col-sm-12 .carousel .carousel-inner {
+    display: none; }
+  .special-carusel .col-xl-12 .carousel .indicatorBlock,
+  .special-carusel .col-md-12 .carousel .indicatorBlock,
+  .special-carusel .col-sm-12 .carousel .indicatorBlock {
+    display: none; }
+  .special-carusel .col-12 .carousel .carousel-inner .carousel-item .hoverImg:hover {
+    background-size: 130% 130% !important;
+    background-position: center !important;
+    transition: all 0.3s linear !important; }
+  .special-carusel .col-12 .carousel .carousel-inner .carousel-item .hoverImg:hover .imgBack .round {
+    background-color: transparent;
+    transition: all 0.3s linear !important;
+    border: 2px solid #fff; }
+  .special-carusel .col-12 .carousel .carousel-inner .carousel-item .dishes-1 {
+    background-size: 100% 100% !important;
+    transition: all 0.3s linear !important; }
+  .special-carusel .col-12 .carousel .carousel-inner .carousel-item .dishes-2 {
+    background-size: 100% 100% !important; }
+  .special-carusel .col-12 .carousel .carousel-inner .carousel-item .dishes-3 {
+    background-size: 100% 100% !important; }
+  .special-carusel .col-12 .carousel .carousel-inner .carousel-item .dishes-4 {
+    background-size: 100% 100% !important; }
+
+  .indicatorBlock ol li {
+    height: 6px !important;
+    width: 6px !important; }
+
+  .img-info:nth-child(9),
+  .img-info:nth-child(11) {
+    flex-direction: column-reverse !important; }
+
+  .img-info {
+    padding: 0 15px !important; }
+    .img-info .col-xl-3 img,
+    .img-info .col-12 img {
+      height: 100% !important;
+      width: 100% !important; }
+    .img-info .col-xl-3 h4,
+    .img-info .col-12 h4 {
+      font-size: 24px; }
+    .img-info .col-xl-3 p,
+    .img-info .col-12 p {
+      font-size: 15px; }
+
+  .carousel-chef .col-xl-12,
+  .carousel-chef .col-sm-12 {
+    display: none; }
+  .carousel-chef .col-12 .carousel .carousel-inner .carousel-item .row .col-12 .card .card-body h4 {
+    font-size: 20px; }
+  .carousel-chef .col-12 .carousel .carousel-inner .carousel-item .row .col-12 .card .card-body p {
+    font-size: 15px; }
+
+  .testimonial-karusel .col-12 {
+    margin: 0;
+    padding: 10px !important; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info h5 {
+      font-size: 20px; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info p {
+      font-size: 13px !important; }
+
+  .card-food {
+    padding: 10px !important; }
+    .card-food .col-12 {
+      margin: 0 !important; }
+      .card-food .col-12 .card {
+        margin-bottom: 20px; }
+        .card-food .col-12 .card img {
+          height: 250px !important; }
+        .card-food .col-12 .card .card-body .btn {
+          padding: 8px 10px !important; }
+
+  .subscribe .col-12 {
+    width: 100%; }
+    .subscribe .col-12 h5 {
+      font-size: 18px; }
+    .subscribe .col-12 p {
+      font-size: 14px !important;
+      text-align: justify; }
+    .subscribe .col-12 .forInput {
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .subscribe .col-12 .forInput .form-control {
+        margin: 0 !important;
+        margin-bottom: 8px !important; }
+      .subscribe .col-12 .forInput .btn {
+        width: 100%; }
+
+  .footer .col-12 {
+    margin: 0 !important;
+    width: 100%; }
+
+  .madeSite .col-12 {
+    margin-bottom: 20px;
+    padding: 0 30px; } }
+@media (min-width: 447px) and (max-width: 768.9px) {
+  #navbar .col-xl-3,
+  #navbar .col-xl-4,
+  #navbar .col-xl-5 {
+    display: none; }
+  #navbar .navbar {
+    width: 100%; }
+
+  .carousel .carousel-inner .item-1 {
+    background-size: 100% !important; }
+  .carousel .carousel-inner .item-2 {
+    background-size: 120% !important; }
+  .carousel .carousel-inner .zb {
+    height: 90vh !important; }
+    .carousel .carousel-inner .zb .qoraFon {
+      height: 100%;
+      width: 100%; }
+    .carousel .carousel-inner .zb .title-enjoy h1 {
+      font-size: 50px; }
+    .carousel .carousel-inner .zb p {
+      font-size: 20px !important;
+      text-align: center;
+      width: 80%; }
+    .carousel .carousel-inner .zb .btn {
+      font-size: 10px;
+      padding: 10px 12px; }
+  .carousel .carousel-control-next,
+  .carousel .carousel-control-prev {
+    display: none; }
+
+  .card-icon .col-12 {
+    height: 250px !important;
+    padding: 20px 100px !important; }
+
+  .restaurant {
+    height: 150px; }
+    .restaurant .col-12 h1 {
+      font-size: 27px; }
+    .restaurant .col-12 p {
+      font-size: 16px !important;
+      width: 80% !important;
+      margin: 0; }
+
+  .contact {
+    padding: 10px !important; }
+    .contact .col-12 {
+      height: auto !important; }
+      .contact .col-12 h3 {
+        font-size: 25px; }
+      .contact .col-12 .inputGroup {
+        flex-direction: column;
+        width: 100%; }
+        .contact .col-12 .inputGroup div {
+          width: 100% !important; }
+      .contact .col-12 .inputEmail {
+        width: 100%; }
+      .contact .col-12 .icon-address {
+        width: 100% !important; }
+        .contact .col-12 .icon-address span {
+          font-size: 24px; }
+        .contact .col-12 .icon-address h5 {
+          width: 100%; }
+    .contact .col-xl-5 {
+      padding: 0 20px !important; }
+
+  .res-img .col-12 {
+    padding: 0 80px; }
+
+  .res-about {
+    padding: 10px 40px !important; }
+
+  .special-menu {
+    height: 200px !important; }
+    .special-menu .col-12 .chiziq {
+      margin-top: 20px;
+      width: 100px; }
+    .special-menu .col-12 h1 {
+      font-size: 34px;
+      font-weight: bold; }
+
+  .special-carusel .col-xl-12 .carousel .carousel-inner,
+  .special-carusel .col-lg-12 .carousel .carousel-inner,
+  .special-carusel .col-md-12 .carousel .carousel-inner,
+  .special-carusel .col-12 .carousel .carousel-inner {
+    display: none; }
+  .special-carusel .col-xl-12 .carousel .indicatorBlock,
+  .special-carusel .col-lg-12 .carousel .indicatorBlock,
+  .special-carusel .col-md-12 .carousel .indicatorBlock,
+  .special-carusel .col-12 .carousel .indicatorBlock {
+    display: none; }
+  .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .hoverImg {
+    height: 400px !important; }
+    .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .hoverImg:hover {
+      background-size: 130% 130% !important;
+      background-position: center !important;
+      transition: all 0.3s linear !important; }
+    .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .hoverImg:hover .imgBack .round {
+      background-color: transparent;
+      transition: all 0.3s linear !important;
+      border: 2px solid #fff; }
+  .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .dishes-1 {
+    background-size: 100% 100% !important; }
+  .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .dishes-2 {
+    background-size: 100% 100% !important; }
+  .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .dishes-3 {
+    background-size: 100% 100% !important; }
+  .special-carusel .col-sm-12 .carousel .carousel-inner .carousel-item .dishes-4 {
+    background-size: 100% 100% !important; }
+
+  .indicatorBlock ol li {
+    height: 6px !important;
+    width: 6px !important; }
+
+  .img-info:nth-child(9),
+  .img-info:nth-child(11),
+  .img-info:nth-child(4),
+  .img-info:nth-child(6) {
+    flex-direction: column-reverse !important; }
+
+  .img-info {
+    padding: 0 80px !important; }
+    .img-info .col-xl-3 img,
+    .img-info .col-12 img {
+      height: 100% !important;
+      width: 100% !important; }
+    .img-info .col-xl-3 h4,
+    .img-info .col-12 h4 {
+      font-size: 21px; }
+    .img-info .col-xl-3 p,
+    .img-info .col-12 p {
+      font-size: 16px; }
+    .img-info .col-xl-3 h3,
+    .img-info .col-12 h3 {
+      font-size: 21px; }
+
+  .carousel-chef .col-sm-12 .carousel .carousel-inner .carousel-item .row {
+    height: 450px; }
+    .carousel-chef .col-sm-12 .carousel .carousel-inner .carousel-item .row .col-sm-6 .card .card-body {
+      padding: 20px 10px; }
+
+  .testimonial-karusel .col-12 {
+    margin: 0;
+    padding: 20px 80px !important; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info h5 {
+      font-size: 20px; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info p {
+      font-size: 13px !important; }
+
+  .card-food {
+    padding: 10px 130px !important; }
+    .card-food .col-12 {
+      margin: 0 !important; }
+      .card-food .col-12 .card {
+        margin-bottom: 20px; }
+        .card-food .col-12 .card img {
+          height: 250px !important; }
+        .card-food .col-12 .card .card-body a h5 {
+          font-size: 19px; }
+        .card-food .col-12 .card .card-body .btn {
+          padding: 6px 14px !important;
+          font-size: 12px !important; }
+        .card-food .col-12 .card .card-body p {
+          font-size: 15px; }
+
+  .subscribe .col-12 {
+    width: 100%;
+    padding: 0 100px !important; }
+    .subscribe .col-12 h5 {
+      font-size: 24px;
+      letter-spacing: 1px; }
+    .subscribe .col-12 p {
+      font-size: 15px !important;
+      text-align: center; }
+    .subscribe .col-12 .forInput {
+      width: 100% !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+      .subscribe .col-12 .forInput .form-control {
+        margin: 0 !important;
+        margin-bottom: 10px !important; }
+      .subscribe .col-12 .forInput .btn {
+        width: 100%; }
+
+  .footer .col-12 {
+    margin: 0 !important;
+    width: 100%;
+    padding: 0 100px !important; }
+    .footer .col-12 h5 {
+      font-size: 18px !important; }
+
+  .madeSite .col-12 {
+    margin-bottom: 20px;
+    padding: 0 100px; } }
+@media (min-width: 769px) and (max-width: 989.9px) {
+  #navbar .col-md-2,
+  #navbar .col-md-3,
+  #navbar .col-md-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #navbar .col-md-2 ul li a,
+    #navbar .col-md-3 ul li a,
+    #navbar .col-md-7 ul li a {
+      font-size: 15px !important;
+      padding: 6px 13px; }
+    #navbar .col-md-2 h2,
+    #navbar .col-md-3 h2,
+    #navbar .col-md-7 h2 {
+      font-size: 21px;
+      margin: 0; }
+    #navbar .col-md-2 button,
+    #navbar .col-md-3 button,
+    #navbar .col-md-7 button {
+      padding: 6px 9px !important;
+      font-size: 13px !important; }
+
+  .carousel .carousel-inner .item-1 {
+    background-size: 100% !important; }
+  .carousel .carousel-inner .item-2 {
+    background-size: 120% !important; }
+  .carousel .carousel-inner .zb {
+    height: 100vh !important; }
+    .carousel .carousel-inner .zb .qoraFon {
+      height: 100%;
+      width: 100%; }
+    .carousel .carousel-inner .zb .title-enjoy h1 {
+      font-size: 55px; }
+    .carousel .carousel-inner .zb p {
+      font-size: 22px !important;
+      text-align: center;
+      width: 70%; }
+    .carousel .carousel-inner .zb .btn {
+      font-size: 10px;
+      padding: 10px 12px; }
+  .carousel .carousel-control-next,
+  .carousel .carousel-control-prev {
+    display: none; }
+
+  .card-icon .col-md-6 {
+    height: 250px !important;
+    padding: 10px 60px !important; }
+
+  .restaurant {
+    height: 150px; }
+    .restaurant .col-md-12 h1 {
+      font-size: 30px; }
+    .restaurant .col-md-12 p {
+      font-size: 19px;
+      width: 70% !important;
+      margin: 0; }
+
+  .contact {
+    padding: 80px !important; }
+    .contact .col-12 {
+      height: auto !important; }
+      .contact .col-12 h3 {
+        font-size: 28px;
+        margin-left: 10px; }
+      .contact .col-12 .inputEmail {
+        width: 100%; }
+      .contact .col-12 .icon-address {
+        width: 100% !important; }
+        .contact .col-12 .icon-address span {
+          font-size: 28px; }
+        .contact .col-12 .icon-address h5 {
+          width: 100%; }
+
+  .res-img .col-12 {
+    padding: 0 80px; }
+
+  .carousel-chef .col-md-12 .carousel .carousel-inner .carousel-item .row {
+    height: 550px !important; }
+    .carousel-chef .col-md-12 .carousel .carousel-inner .carousel-item .row .col-md-4 .card .card-body h4 {
+      font-size: 21px; }
+    .carousel-chef .col-md-12 .carousel .carousel-inner .carousel-item .row .col-md-4 .card .card-body p {
+      font-size: 16px; }
+
+  .res-about {
+    padding: 10px 40px !important; }
+
+  .special-menu {
+    height: 250px !important; }
+    .special-menu .col-12 .chiziq {
+      margin-top: 20px;
+      width: 100px; }
+    .special-menu .col-12 h1 {
+      font-size: 36px;
+      font-weight: bold; }
+
+  .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .hoverImg {
+    height: 400px !important; }
+    .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .hoverImg:hover {
+      background-size: 140% 140% !important;
+      background-position: center !important;
+      transition: all 0.3s linear !important; }
+    .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .hoverImg:hover .imgBack .round {
+      background-color: transparent;
+      transition: all 0.3s linear !important;
+      border: 2px solid #fff; }
+  .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .dishes-1 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .dishes-2 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .dishes-3 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .dishes-4 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .dishes-6 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-md-12 .carousel .carousel-inner .carousel-item .dishes-7 {
+    background-size: 120% 120% !important; }
+
+  .indicatorBlock ol li {
+    height: 7px !important;
+    width: 7px !important; }
+
+  .img-info:nth-child(9),
+  .img-info:nth-child(11),
+  .img-info:nth-child(4),
+  .img-info:nth-child(6) {
+    flex-direction: row-reverse; }
+
+  .img-info {
+    padding: 0 10px !important;
+    margin: 0; }
+    .img-info .col-md-6 {
+      height: 300px !important; }
+      .img-info .col-md-6 img {
+        height: 100% !important;
+        width: 100% !important; }
+      .img-info .col-md-6 h4 {
+        font-size: 26px; }
+      .img-info .col-md-6 p {
+        font-size: 16px; }
+
+  .testimonial-karusel .col-12 {
+    margin: 0;
+    padding: 20px 100px !important; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info h5 {
+      font-size: 20px; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info p {
+      font-size: 13px !important; }
+
+  .card-food {
+    padding: 10px 50px !important; }
+    .card-food .col-md-6 {
+      margin: 0 !important; }
+      .card-food .col-md-6 .card {
+        margin-bottom: 20px;
+        width: 95% !important; }
+        .card-food .col-md-6 .card img {
+          height: 250px !important; }
+        .card-food .col-md-6 .card .card-body .btn {
+          padding: 6px 18px !important;
+          margin-bottom: 20px; }
+        .card-food .col-md-6 .card .card-body p {
+          font-size: 15px; }
+
+  .subscribe .col-md-12 {
+    width: 100%;
+    padding: 0 60px !important; }
+    .subscribe .col-md-12 h5 {
+      font-size: 24px;
+      letter-spacing: 1px;
+      font-weight: bold; }
+    .subscribe .col-md-12 p {
+      font-size: 17px !important;
+      text-align: center; }
+    .subscribe .col-md-12 .forInput {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .subscribe .col-md-12 .forInput .form-control {
+        margin: 0 !important;
+        margin-right: 10px !important; }
+      .subscribe .col-md-12 .forInput .btn {
+        padding: 12px 20px !important; }
+
+  .footer .col-md-4 {
+    margin: 0px !important; }
+    .footer .col-md-4 p {
+      font-size: 14px !important; }
+
+  .madeSite .col-12 {
+    margin-bottom: 20px;
+    padding: 0 100px; } }
+@media (min-width: 990px) and (max-width: 1199.9px) {
+  #navbar .col-md-2,
+  #navbar .col-md-3,
+  #navbar .col-md-7 {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    #navbar .col-md-2 ul li a,
+    #navbar .col-md-3 ul li a,
+    #navbar .col-md-7 ul li a {
+      font-size: 15px !important;
+      padding: 6px 13px; }
+    #navbar .col-md-2 h2,
+    #navbar .col-md-3 h2,
+    #navbar .col-md-7 h2 {
+      font-size: 33px;
+      margin: 0; }
+    #navbar .col-md-2 button,
+    #navbar .col-md-3 button,
+    #navbar .col-md-7 button {
+      padding: 6px 9px !important;
+      font-size: 13px !important; }
+
+  .carousel .carousel-inner .item-1 {
+    background-size: 100% !important; }
+  .carousel .carousel-inner .item-2 {
+    background-size: 100% !important; }
+  .carousel .carousel-inner .zb {
+    height: 100vh !important; }
+    .carousel .carousel-inner .zb .qoraFon {
+      height: 100%;
+      width: 100%; }
+    .carousel .carousel-inner .zb .title-enjoy h1 {
+      font-size: 80px; }
+    .carousel .carousel-inner .zb p {
+      font-size: 25px !important;
+      text-align: center;
+      width: 70%; }
+    .carousel .carousel-inner .zb .btn {
+      font-size: 10px;
+      padding: 10px 12px; }
+
+  .card-icon .col-md-6 {
+    height: 350px !important; }
+
+  .restaurant {
+    height: 150px; }
+    .restaurant .col-md-12 h1 {
+      font-size: 38px; }
+    .restaurant .col-md-12 p {
+      font-size: 19px;
+      width: 70% !important;
+      margin: 0; }
+
+  .contact {
+    padding: 40px !important; }
+    .contact .col-lg-7,
+    .contact .col-lg-5 {
+      height: auto !important; }
+      .contact .col-lg-7 h3,
+      .contact .col-lg-5 h3 {
+        font-size: 28px;
+        margin-left: 10px; }
+      .contact .col-lg-7 .inputEmail,
+      .contact .col-lg-5 .inputEmail {
+        width: 100%; }
+      .contact .col-lg-7 .icon-address,
+      .contact .col-lg-5 .icon-address {
+        width: 100% !important; }
+        .contact .col-lg-7 .icon-address span,
+        .contact .col-lg-5 .icon-address span {
+          font-size: 32px; }
+        .contact .col-lg-7 .icon-address h5,
+        .contact .col-lg-5 .icon-address h5 {
+          width: 100%; }
+
+  .special-menu {
+    height: 250px !important; }
+    .special-menu .col-12 .chiziq {
+      margin-top: 20px;
+      width: 110px; }
+    .special-menu .col-12 h1 {
+      font-size: 40px;
+      font-weight: bold; }
+
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .hoverImg {
+    height: 400px !important; }
+    .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .hoverImg:hover {
+      background-size: 140% 140% !important;
+      background-position: center !important;
+      transition: all 0.3s linear !important; }
+    .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .hoverImg:hover .imgBack .round {
+      background-color: transparent;
+      transition: all 0.3s linear !important;
+      border: 2px solid #fff; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-1 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-2 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-3 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-4 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-5 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-6 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-7 {
+    background-size: 120% 120% !important; }
+  .special-carusel .col-lg-12 .carousel .carousel-inner .carousel-item .dishes-8 {
+    background-size: 120% 120% !important; }
+
+  .indicatorBlock ol li {
+    height: 7px !important;
+    width: 7px !important; }
+
+  .img-info:nth-child(9),
+  .img-info:nth-child(11) {
+    flex-direction: row-reverse !important; }
+
+  .img-info {
+    padding: 0 10px !important;
+    margin: 0; }
+    .img-info .col-md-6 {
+      height: 220px !important; }
+      .img-info .col-md-6 img {
+        height: 100% !important;
+        width: 100% !important; }
+      .img-info .col-md-6 h4 {
+        font-size: 24px; }
+      .img-info .col-md-6 p {
+        font-size: 15px; }
+      .img-info .col-md-6 h3 {
+        font-size: 23px; }
+
+  .testimonial-karusel .col-12 {
+    margin: 0;
+    padding: 20px 200px !important; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info h5 {
+      font-size: 20px; }
+    .testimonial-karusel .col-12 .carousel .carousel-inner .carousel-item .userBlock .user-info p {
+      font-size: 13px !important; }
+
+  .card-food {
+    padding: 10px 50px !important; }
+    .card-food .col-md-6 {
+      margin: 0 !important; }
+      .card-food .col-md-6 .card {
+        margin-bottom: 20px;
+        width: 95% !important; }
+        .card-food .col-md-6 .card img {
+          height: 300px !important; }
+        .card-food .col-md-6 .card .card-body .btn {
+          padding: 6px 18px !important;
+          margin-bottom: 20px; }
+        .card-food .col-md-6 .card .card-body p {
+          font-size: 15px; }
+
+  .subscribe .col-md-12 {
+    width: 100%;
+    padding: 0 60px !important; }
+    .subscribe .col-md-12 h5 {
+      font-size: 22px;
+      letter-spacing: 1px;
+      font-weight: bold; }
+    .subscribe .col-md-12 p {
+      font-size: 16px !important;
+      text-align: center; }
+    .subscribe .col-md-12 .forInput {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .subscribe .col-md-12 .forInput .form-control {
+        margin: 0 !important;
+        margin-right: 10px !important; }
+      .subscribe .col-md-12 .forInput .btn {
+        padding: 12px 20px !important; }
+
+  .footer .col-md-4 {
+    margin: 0px !important; }
+    .footer .col-md-4 p {
+      font-size: 14px !important; }
+
+  .madeSite .col-12 {
+    margin-bottom: 20px;
+    padding: 0 100px; } }
+
+/*# sourceMappingURL=main.css.map */

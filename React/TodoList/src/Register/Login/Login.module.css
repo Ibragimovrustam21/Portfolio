@@ -1,0 +1,31 @@
+.Login {
+    width: 100%;
+    max-width: 300px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+.Links {
+    color: #3f51b5;
+    text-decoration: none;
+}
+.Links:hover {
+    transition: all 0.2s linear;
+    color: #2641db;
+}
+.text {
+    font-size: 14px;
+    color: #000;
+    margin-top: 20px;
+}
+/* .scroll {
+    display: block;
+    width: 100%;
+    height:200px;
+    overflow-y: scroll;
+    scroll-behavior: auto;
+} */
+

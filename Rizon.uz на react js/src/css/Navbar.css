@@ -1,0 +1,117 @@
+.Navbar li:hover,
+.Navbar a:hover,
+.fa-search:hover,
+.korzina svg:hover,
+.user:hover {
+    color: #35bab8 !important;
+    transition: all 0.3s linear;
+    cursor: pointer;
+}
+
+.navbar-brand {
+    cursor: pointer;
+}
+
+.Navbar .nav-item a {
+    font-size: 12px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    transition: all 0.2s linear;
+}
+
+.header_input_search {
+    width: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.searchInput {
+    display: none;
+    position: relative;
+    overflow: hidden;
+}
+
+.searchInput svg {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    cursor: pointer;
+}
+
+.svg-active {
+    animation: svg_active 1s;
+}
+.svg-deactive{
+    animation: svg_deactive 1s;
+}
+@keyframes svg_active {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(100%);
+    }
+}
+
+@keyframes svg_deactive {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
+}
+
+.header_input_search input {
+    border-radius: 20px;
+}
+
+.header_input_search input:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.header_input_search input::placeholder {
+    font-size: 14px;
+}
+
+.drop:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.user span {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* Navbar under */
+.navbar_under {
+    box-sizing: border-box;
+}
+
+.navbar_under a {
+    color: white !important;
+}
+
+.navbar_under ul li {
+    height: 50px;
+    border-top: 2px solid transparent;
+}
+
+.navbar_under ul li:hover {
+    border-top: 2px solid #35bab8;
+    transition: all 0.4s ease-in-out;
+}
+
+.navbar_under .active {
+    border-top: 2px solid #35bab8 !important;
+}

@@ -1,0 +1,83 @@
+.About-Company {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #f4f4f4;
+}
+
+.About-Company .col-lg-12 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.About-Company .about-menu {
+    background-color: #fff;
+    width: 25%;
+    height: 36%;
+}
+strong{
+    color: rgb(155, 153, 153);
+}
+.About-Company .about-menu .active a{
+    color: #000 ;
+    font-weight: bold;
+}
+.About-Company .about-menu .active span{
+    display: block;
+}
+.About-Company .about-menu div {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.About-Company .about-menu div a{
+    text-decoration: none;
+    color: #ccc;
+    letter-spacing: 1px;
+}
+.About-Company .about-menu div span{
+    display: none;
+}
+.About-Company .about-company-info {
+    background-color: #fff;
+    width: 70%;
+    height: 100%;
+    
+}
+.About-Company .about-company-info p{
+    color: #ccc;
+}
+.About-Company .about-company-info .company-img {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+    margin-top: 10px;
+}
+.messanger-group{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.messanger-group a{
+    text-decoration: none;
+    display: block;
+    width: 33%;
+}
+.messanger-group a .messanger{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+.messanger-group a .messanger  div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin: 0 !important;
+}

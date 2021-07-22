@@ -1,0 +1,558 @@
+.karusel_1_prev,
+.karusel_1_next {
+    top: 88% !important;
+    bottom: 0px !important;
+    height: 40px;
+    width: 40px;
+    border-radius: 50% !important;
+    color: #fff;
+}
+
+button {
+    border-radius: 0px !important;
+}
+
+.karusel_1_prev {
+    left: 25px;
+}
+
+.karusel_1_next {
+    left: 110px;
+}
+
+.karusel_1 [data-bs-target] {
+    height: 12px !important;
+    width: 12px;
+    border-radius: 50% !important;
+    background-color: #7285f0;
+}
+
+.karusel_1 .active {
+    border-top: 0px !important;
+    border-bottom: 0px;
+    margin-top: 10px;
+}
+
+.karusel_1 {
+    margin: auto !important;
+    justify-content: flex-start !important;
+    left: 70px;
+    bottom: 23px;
+    right: auto;
+}
+
+.carousel-inner .barg {
+    position: absolute;
+    right: 50%;
+    top: 45px;
+    
+}
+
+.carousel-item .rasm-1 {
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    top:100%;
+    height: 380px;
+    width: auto;
+    transform: translateY(100%);
+    opacity: 0.4;
+    animation: rasm-1 6s forwards;
+    animation-iteration-count: 1;
+}
+
+.carousel-item .animated-img {
+    animation: anime 4s infinite alternate-reverse;
+}
+
+.div-for-img  .barg-in {
+    position: absolute;
+    bottom: 0;
+    right: 40px;
+    z-index: 9999999;
+    transform: rotate(-90deg);
+    animation: barg 1s infinite alternate-reverse;
+}
+
+.div-for-img {
+    position: relative;
+}
+@keyframes barg {
+    from {
+        transform: rotate(-90deg);
+    }
+    to {
+        transform: rotate(-80deg);
+    }
+}
+@keyframes anime {
+    from {
+        transform: rotate(-40deg);
+    }
+
+    to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes rasm-1 {
+    from {
+        top: 150%;
+        transform: rotate(360deg);
+    }
+    to {
+        top: 50%;
+        transform: rotate(0deg);
+    }
+}
+
+/* Dori Info */
+.dori_info {
+    position: relative;
+}
+
+.dori_info ul {
+    padding: 0 20px;
+}
+
+.dori_info h2 {
+    font-weight: bold;
+}
+
+.dori_info ul li {
+    color: #93949b;
+}
+
+.dori_info a {
+    text-decoration: none;
+    color: #35bab8;
+}
+
+.dori_info button {
+    border-radius: 0px;
+    padding: 18px;
+}
+
+.dori_info button:hover {
+    color: white;
+}
+
+.dori_info .barg-1 {
+    position: absolute;
+    top: 55%;
+    right: 0;
+    opacity: 0.8;
+    transform: rotate(270deg);
+}
+
+.barg-2 {
+    position: absolute;
+    top: -10px;
+    right: -20px;
+    opacity: 0.8;
+    transform: rotate(0deg);
+    height: 160px;
+}
+
+/* dori_card_link */
+.dori_card_link {
+    height: 150px;
+    background-color: #f4f4f4;
+}
+
+.dori_card_link .col-lg-4 {
+    display: flex;
+    justify-content: center;
+}
+
+.dori_card_link .link_card {
+    width: 60%;
+    height: 100%;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dori_card_link .link_card a {
+    text-decoration: none;
+    color: #000;
+}
+
+.active_card>.link_card {
+    background-color: white;
+    border-top: 2px solid #35bab8;
+
+}
+
+.active_card a {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* About us */
+.about_Us a {
+    text-decoration: none;
+    color: #35bab8;
+}
+
+.about_card_item {
+    background-color: #f4f4f4;
+}
+
+.about_card_item h1 {
+    color: #35bab8;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.about_card_item p {
+    color: #93949b;
+    font-size: 14px;
+}
+
+/* Tavsiya etilganlar */
+.tavsiya_etilganlar {
+    background-color: #f4f4f4;
+}
+
+.tavsiya_etilganlar h3 {
+    font-weight: bold;
+}
+
+.tavsiya_etilganlar .card {
+    width: 300px !important;
+}
+
+.tavsiya_etilganlar .card h6 {
+    font-weight: bold;
+}
+
+.tavsiya_etilganlar .card p {
+    font-size: 12px;
+    height: 140px;
+}
+
+.izoh_uchun_button button {
+    letter-spacing: 1px;
+    border-radius: 0px;
+}
+
+.izoh_uchun_button button:hover {
+    color: #fff;
+}
+
+/* Afzilliklar */
+.afzalliklar h3 {
+    font-weight: bold;
+}
+
+.afzal_item {
+    height: 250px;
+    background-color: #f4f4f4;
+}
+
+.afzal_item .afzal_item_img {
+    height: 250px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.afzal_item_img img {
+    background-color: #fff;
+    height: 210px;
+    width: 210px;
+}
+
+.afzal_item p {
+    font-size: 13px;
+    color: #93949b;
+}
+
+.afzal_item .afzal_item_text {
+    padding: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.afzal_item .afzal_item_text h3 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Biznes */
+.biznes {
+    background-color: #f4f4f4;
+}
+
+.biznes h3 {
+    font-weight: bold;
+}
+
+.biznes .biznes_item_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.biznes .biznes_item_text button {
+    border-radius: 0px;
+}
+
+.biznes .biznes_item_text button:hover {
+    color: #fff;
+}
+
+/* karusel_2 */
+.karusel_2 {
+    height: 410px;
+    width: 100%;
+}
+
+.karusel_2_inner,
+.karusel_2_inner .carousel-item {
+    height: 410px !important;
+}
+
+.back_img_1,
+.back_img_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    margin: 0px;
+}
+
+.back_img_1 h2,
+.back_img_2 h2 {
+    font-weight: bold;
+}
+
+.back_img_1 {
+    background: url('https://mguu.ru/wp-content/uploads/2019/05/WhatsApp-Image-2019-05-22-at-18.07.52-1024x683.jpeg') no-repeat center;
+    background-size: 100% 170%;
+
+}
+
+.back_img_2 {
+    background: url('https://thepoint.rabota.ua/wp-content/uploads/2019/04/feliperizo-co-heart-made-1218315-unsplash-680x453.jpg') no-repeat center;
+    background-size: 100% 200%;
+}
+
+.carousel_2_prev,
+.carousel_2_next {
+    top: 50%;
+    bottom: 40%;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% !important;
+}
+
+.carousel_2_prev {
+    left: 5%;
+}
+
+.carousel_2_next {
+    right: 5%;
+}
+
+.carousel_2_next_icon,
+.carousel_2_prev_icon {
+    color: #000 !important;
+}
+
+.carousel_2_indicators [data-bs-target] {
+    height: 10px !important;
+    width: 10px;
+    border-radius: 50% !important;
+    background-color: #fff;
+}
+
+/* Accardion */
+.Accardion h3 {
+    font-weight: bold;
+}
+
+.accardion_title {
+    height: 60px;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    color: #93949b;
+    cursor: pointer;
+    position: relative;
+}
+
+.accardion_title h6 {
+    margin: 0;
+}
+
+.accardion_title span {
+    position: absolute;
+    right: 10px;
+    color: #000;
+}
+
+.accardion_button {
+    width: 60%;
+    margin-top: 10px;
+    border-radius: 0px;
+    letter-spacing: 1px;
+}
+
+.accardion_button:hover {
+    color: #fff;
+}
+
+.accordionActive .accordion-body {
+    display: block;
+    height: 80px;
+    background-color: #93949b;
+}
+
+.accordion-item,
+.accordion-button {
+    background-color: #f4f4f4 !important;
+    border: 0px;
+    color: #93949b;
+}
+
+.accordion-button {
+    font-weight: bold;
+    color: #000;
+}
+
+.accordion-body {
+    padding: 0 1.25rem;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.accordion-button::after {
+    display: none;
+}
+
+.accordion-button .fa-times-circle {
+    position: absolute;
+    right: 20px;
+    transform: rotate(45deg);
+    transition: all 0.3s ease-in-out;
+}
+
+.btn_rotate {
+    transform: rotate(90deg) !important;
+}
+
+.accardion_title_active h6 {
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+    margin: 0;
+}
+
+/* karusel_3 */
+.karusel_3 {
+    position: relative;
+    height: 700px;
+    background-color: #f4f4f4;
+
+}
+
+.karusel_3 .col-lg-4 {
+    margin-top: 40px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.active_card_karusel {
+    background-color: #fff;
+    border-top: 2px solid #35bab8;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+
+.karusel_3 .col-lg-12 {
+    overflow: hidden !important;
+    padding: 20px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.karusel_3 button:hover {
+    color: #fff;
+}
+
+.karusel_3 .col-lg-12::-webkit-scrollbar {
+    display: none;
+}
+
+.card_for_carousel {
+    min-width: 23%;
+    margin: 0 15px;
+    position: relative;
+    display: flex;
+    transition: all 0.4s ease-in-out;
+    left: 0;
+    border-radius: 0px;
+}
+
+.card_for_carousel h6 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 90px;
+}
+
+.card_for_carousel .card-body {
+    height: 160px;
+}
+
+.card_for_carousel p {
+    font-size: 14px;
+    color: #93949b;
+    letter-spacing: 1px;
+}
+
+.karusel_3_icon_left,
+.karusel_3_icon_right {
+    position: absolute;
+    top: 340px;
+    width: auto;
+    cursor: pointer;
+}
+.karusel_3_icon_left {
+    left: 10px;
+    z-index: 9999;
+}
+
+.karusel_3_icon_right {
+    right: 6px;
+    text-align: end;
+    z-index: 9999;
+}

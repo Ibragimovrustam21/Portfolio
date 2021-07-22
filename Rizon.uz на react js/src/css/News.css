@@ -1,0 +1,75 @@
+.News .col-lg-12 {
+    height: auto;
+    display: flex;
+    justify-content: space-between !important;
+    background-color: #f4f4f4;
+}
+
+.newsNavigation {
+    height: 120px;
+    width: 20%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+
+.newsNavigation div {
+    width: 100%;
+    cursor: pointer;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsNavigation a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 16px;
+}
+
+.newsItem {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    width: 80%;
+}
+
+.card_for_carousel {
+    max-width: 27%;
+    border-radius: 0px;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.card-news-img {
+    cursor: pointer;
+    overflow: hidden;
+}
+.card-news-img img{
+    transition: all 0.3s linear;
+    width: 100%;
+
+}
+.card-news-img img:hover {
+    transition: all 0.3s linear;
+    transform: scale(1.1, 1.1);
+}
+
+.active-news-navigation {
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+.newsNavigation div span{
+    display: none;
+}
+.active-news-navigation span{
+    display: block !important;
+}

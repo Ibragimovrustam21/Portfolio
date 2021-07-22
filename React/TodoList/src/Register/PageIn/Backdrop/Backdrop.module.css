@@ -1,0 +1,44 @@
+.Backdrop{
+    z-index: 90;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.modal,.modalAdd{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    right: 40%;
+    bottom: 40%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    z-index: 1111;
+}
+.modalAdd{
+    bottom: 30% !important;
+}
+.modal input , .modalAdd input{
+    height: 30px;
+    border: 1px solid rgb(61, 61, 238);
+    border-radius: 5px;
+    outline: none;
+}
+.modal label{
+    text-align: start;
+
+}
+.modalAdd label{
+    margin-top: 10px;
+    text-align: start;
+}
+.modalAdd div,.modal div{
+display: flex;
+justify-content: space-between;
+}

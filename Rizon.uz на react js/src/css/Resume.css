@@ -1,0 +1,36 @@
+.resume{
+    height:650px;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.resume .col-lg-12{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.resume .col-lg-12 .resume-input{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-content{
+    height: 90% !important;
+}
+.need-meneger{
+    width: 30%;
+}
+.need-meneger div{
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -50px
+}
+.need-meneger div h5{
+    font-weight: bold;
+}

@@ -1,0 +1,129 @@
+.user_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    background-color: #f4f4f4;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+}
+
+.active_menu {
+    border-bottom: 2px solid #35bab8;
+    font-weight: bold;
+}
+
+.header-menu {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+.header-menu .oddiy-menu,
+.biznes-menu {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 999999;
+}
+
+.input-div {
+    margin-top: 10px;
+}
+
+.input-div input {
+    border-radius: 0px;
+    padding: 15px;
+}
+
+.input-div input:focus {
+    box-shadow: none;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+.input-div input::placeholder {
+    font-size: 14px;
+}
+
+.user_page .col-lg-4 button {
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    padding: 15px;
+}
+
+.user_page .col-lg-4 button:hover {
+    color: #fff;
+}
+
+.user_page .col-lg-8,
+.user_page .col-lg-4 {
+    background-color: #f4f4f4;
+}
+
+.savatcha-nomi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 10px;
+}
+
+.savatcha-nomi h5,
+p,
+h6 {
+    margin: 0;
+}
+
+.savatcha-nomi h5 {
+    font-weight: bold;
+}
+
+.savatcha-nomi p {
+    color: #ccc;
+    cursor: pointer;
+}
+.shop-modal{
+    transition: all 3s linear;
+}
+.shop-modal .savatcha {
+    height: 460px;
+}
+
+.savatcha {
+    height: 350px;
+    overflow: hidden;
+}
+
+.savatcha-narxi {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+.savatcha-narxi .jami-narx {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shop-modal .savatcha-narxi .jami-narx {
+    width: 60%;
+    justify-content: flex-start;
+    align-items: flex-end;
+}

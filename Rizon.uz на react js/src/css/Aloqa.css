@@ -1,0 +1,51 @@
+.Aloqa {
+    height: 500px;
+    width: 100%;
+    background-color: #f4f4f4;
+
+}
+
+.Aloqa .col-lg-12 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center
+}
+
+.Aloqa .col-lg-12 .email-manzil {
+    height: 350px;
+    width: 350px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Aloqa .col-lg-12 .email-manzil div {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    border: 10px solid #f4f4f4;
+    box-sizing: content-box;
+    background-color: #35bab8;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aloqa .col-lg-12 .email-manzil div span {
+    font-size: 40px;
+}
+
+.Aloqa .col-lg-12 .email-manzil h4 {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Aloqa .col-lg-12 .email-manzil p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    color: #ccc;
+}

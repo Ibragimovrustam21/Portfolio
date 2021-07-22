@@ -1,0 +1,22 @@
+.carera{
+    height: 480px;
+    background-color: #f4f4f4;
+}
+.carera .col-lg-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.carera .col-lg-12 p{
+    letter-spacing: 1px;
+    color: rgb(173, 173, 173);
+}
+.carera .col-lg-4 .card-meneger{
+    background-color: #fff;
+    height: 170px;
+    margin-left: 40px;
+}
+.carera .col-lg-4 .card-meneger .modal .modal-content{
+    height: 200px !important;
+}

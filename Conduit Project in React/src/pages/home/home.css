@@ -1,0 +1,24 @@
+.banner{
+    background-color: #5cb85c;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.banner h1{
+    font-weight: bold;
+}
+.banner p{
+    font-size: 18px;
+}
+.btnSettings{
+    color: grey;
+    transition: all 0.3s linear;
+
+}
+.btnSettings:hover{
+    color: #fff !important;
+    transition: all 0.3s linear;
+}

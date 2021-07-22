@@ -1,0 +1,39 @@
+.Button{
+    letter-spacing: 2px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+}
+.Button:active{
+    box-shadow: inset 2px 2px 1px rgba(63, 61, 61, .4);
+}
+.Button:focus{
+    outline: none;
+}
+.Button:disabled{
+    background: rgba(107, 107, 107, 0.4);
+    cursor: not-allowed;
+    color: #fff;
+}
+.success,.primary{
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+.success{
+    background-color: rgba(115, 238, 84, 0.952);
+    margin-left: 15px;
+}
+.primary{
+    background: #3f51b5;
+}
+.info{
+    background: rgb(106, 221, 95);
+    font-size: 14px;
+    color: #fff;
+    padding:  7px 15px;
+}
