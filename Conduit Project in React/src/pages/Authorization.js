@@ -3,6 +3,7 @@ import { Link, Redirect } from 'react-router-dom'
 import { BackgroundError } from '../component/BackgroundError'
 import { useFetch } from '../component/useFetch'
 import { UserContext } from '../component/UserContext'
+
 export const Authorization = (props) => {
     const Register = props.match.path === '/register'
     const changeTitle = Register ? 'Sign Up' : 'Sign In'
@@ -43,11 +44,11 @@ export const Authorization = (props) => {
         localStorage.setItem('token', response.user.token)
         setIsSuccessSubmit(true)
     }, [response])
+
     if (isSuccessSubmit) {
         dispatch({ type: 'SET_AUTHORIZED', payload: response.user })
         return <Redirect to='/' />
     }
-
 
     return (
         <div className='container'>
