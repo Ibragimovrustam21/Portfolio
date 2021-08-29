@@ -1,7 +1,7 @@
 import classNames from 'classnames';
 import React, { useEffect, useState } from 'react'
 import { useFetch } from './useFetch';
-export const AddToFavorites = ({ isFavorited, favoritesCount, articleSlug, text, responsePut }) => {
+export const AddToFavorites = ({ isFavorited, favoritesCount, articleSlug, responsePut }) => {
     const apiUrl = `/articles/${articleSlug}/favorite`
     const [{ response }, doFetch] = useFetch(apiUrl)
     const [fav, setFav] = useState(isFavorited)
@@ -15,13 +15,14 @@ export const AddToFavorites = ({ isFavorited, favoritesCount, articleSlug, text,
 
     useEffect(() => {
         if (!response) return
-        {responsePut
+        {
+            responsePut
                 ? responsePut(response.article.favoritesCount, response.article.favorited)
-                :setFav(response.article.favorited)
-                setCount(response.article.favoritesCount)
+                : setFav(response.article.favorited)
+            setCount(response.article.favoritesCount)
         }
 
-    }, [response,responsePut])
+    }, [response, responsePut])
 
     const btnLike = classNames({
         'btn': true,
@@ -34,9 +35,9 @@ export const AddToFavorites = ({ isFavorited, favoritesCount, articleSlug, text,
     return (
         <button className={btnLike} onClick={like}>
             <i className='fas fa-heart'></i>
-                &nbsp;
+            &nbsp;
             {
-                    responsePut ? (isFavorited ? <span>Unfavorite article</span> : <span>favorite article</span>) : null
+                responsePut ? (isFavorited ? <span>Unfavorite article</span> : <span>favorite article</span>) : null
             }
             &nbsp;
             {responsePut ? favoritesCount : count}

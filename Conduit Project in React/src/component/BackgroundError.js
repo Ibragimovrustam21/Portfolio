@@ -3,7 +3,6 @@ export const BackgroundError = ({ error }) => {
     const errorItem = Object.keys(error).map(err => {
         return `${err} : ${error[err].join(' ')}`
     })
-    console.log(errorItem);
     return (
         <ul className='list-unstyled ms-5 mt-2'>
             {

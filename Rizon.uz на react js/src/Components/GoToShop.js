@@ -12,7 +12,6 @@ class GoToShop extends Component {
         }
         return (
             <div className='modal-head-shop d-none'>
-
                 <div className='modal-back' onClick={hideModal}></div>
                 <div className='shop-modal bg-white'>
                     <div className='middle-icon' onClick={hideModal}>

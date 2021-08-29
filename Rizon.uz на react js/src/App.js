@@ -33,7 +33,6 @@ export const App = () => {
                 <Route path='/career' component={Carera} />
                 <Route path='/dostavka' component={Dostavka} />
                 <Route path='/news' component={News} />
-                
             </Switch>
             <Footer />
         </BrowserRouter>
