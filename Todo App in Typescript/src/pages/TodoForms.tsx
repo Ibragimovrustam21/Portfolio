@@ -55,11 +55,12 @@ export const TodoForms: React.FC = () => {
       if (item.id === id) {
         return {
           ...item,
-          title: title
+          title
         }
       }
       return item
     }))
+    setChange({ title: '', id: 0 })
   }
 
   return (
