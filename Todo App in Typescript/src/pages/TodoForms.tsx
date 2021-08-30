@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { ITitle, obj } from '../interface/Interface';
 import { Comment } from '../components/Comment';
-import { TodoForm } from '../components/Posts';
+import { TodoForm } from '../components/AddPosts';
 
 export const TodoForms: React.FC = () => {
   const [value, setValue] = useState<ITitle[]>([])
