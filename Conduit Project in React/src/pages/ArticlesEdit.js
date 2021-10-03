@@ -38,6 +38,7 @@ export const ArticlesEdit = ({ match }) => {
         }
         setIsSuccess(true)
     }, [responsePut])
+    
     if (isSuccess) {
         return <Redirect to={`/articles/${slug}`} />
     }

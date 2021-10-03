@@ -1,0 +1,429 @@
+.our-projects-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.our-projects-title {
+  padding-top: 150px;
+  margin: 0 auto;
+}
+
+.our-projects-title h2 {
+  font-size: 45px;
+  width: 60%;
+  text-align: center;
+}
+
+.our-projects-title p {
+  font-size: 18px;
+  margin: 10px 0;
+  width: 60%;
+  text-align: center;
+}
+
+.our-projects-group {
+  height: 2500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 80px;
+}
+
+.our-projects-info-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 90%;
+  width: 100%;
+
+}
+
+.our-project-item {
+  height: 29%;
+  width: 48%;
+}
+
+.our-project-item .project-photo {
+  height: 75%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.our-project-item-1 {
+  height: 34%;
+}
+
+.our-project-item-4 {
+  height: 34%;
+  margin-top: -130px;
+}
+
+.our-project-item-3 {
+  margin-top: -50px;
+}
+
+.our-project-item .project-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+.our-project-item .project-info {
+  height: 25%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.our-project-item .project-info div {
+  justify-content: start;
+}
+
+.our-project-item .project-info h3 {
+  font-size: 20px;
+  width: 60%;
+}
+
+.our-projects-pagination {
+  height: 1%;
+}
+
+.zb {
+  position: relative;
+  height: 9%;
+}
+
+.zb .olmo-free {
+  bottom: 0;
+}
+
+/* adaptive */
+@media (min-width:0) and (max-width:446.9px) {
+  .our-projects-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .our-projects-title h2 {
+    font-size: 25px;
+    width: 80%;
+  }
+
+  .our-projects-title p {
+    font-size: 16px;
+    width: 80%;
+  }
+
+  .our-projects-group {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .our-projects-info-group {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+  }
+
+  .our-project-item {
+    height: 29%;
+    width: 100%;
+  }
+
+  .our-project-item-1 {
+    height: 34%;
+  }
+
+  .our-project-item-4 {
+    height: 34%;
+    margin-top: 0px;
+  }
+
+  .our-project-item-3 {
+    margin-top: 0;
+  }
+
+  .our-project-item .project-info {
+    padding: 10px;
+  }
+
+  .our-project-item .project-info h3 {
+    font-size: 18px;
+    width: 60%;
+  }
+
+  .our-project-item .project-info p {
+    font-size: 16px;
+  }
+
+  .our-project-item .project-info span {
+    font-size: 20px;
+  }
+
+  .our-projects-pagination {
+    height: 1%;
+  }
+
+  .zb {
+    position: relative;
+    height: 9%;
+  }
+
+  .zb .olmo-free {
+    bottom: 0;
+  }
+
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .our-projects-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .our-projects-title h2 {
+    font-size: 30px;
+    width: 80%;
+  }
+
+  .our-projects-title p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .our-projects-group {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .our-projects-info-group {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+  }
+
+  .our-project-item {
+    height: 29%;
+    width: 100%;
+  }
+
+  .our-project-item-1 {
+    height: 34%;
+  }
+
+  .our-project-item-4 {
+    height: 34%;
+    margin-top: 0px;
+  }
+
+  .our-project-item-3 {
+    margin-top: 0;
+  }
+
+  .our-project-item .project-info {
+    padding: 10px;
+  }
+
+  .our-project-item .project-info h3 {
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .our-project-item .project-info p {
+    font-size: 18px;
+  }
+
+  .our-project-item .project-info span {
+    font-size: 24px;
+  }
+
+  .our-projects-pagination {
+    height: 1%;
+  }
+
+  .zb {
+    position: relative;
+    height: 9%;
+  }
+
+  .zb .olmo-free {
+    bottom: 0;
+  }
+
+
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .our-projects-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .our-projects-title h2 {
+    font-size: 30px;
+    width: 80%;
+  }
+
+  .our-projects-title p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .our-projects-group {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .our-projects-info-group {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .our-project-item {
+    height: 29%;
+    width: 100%;
+  }
+
+  .our-project-item-1 {
+    height: 34%;
+  }
+
+  .our-project-item-4 {
+    height: 34%;
+    margin-top: 0px;
+  }
+
+  .our-project-item-3 {
+    margin-top: 0;
+  }
+
+  .our-project-item .project-info {
+    padding: 10px;
+  }
+
+  .our-project-item .project-info h3 {
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .our-project-item .project-info p {
+    font-size: 18px;
+  }
+
+  .our-project-item .project-info span {
+    font-size: 24px;
+  }
+
+  .our-projects-pagination {
+    height: 1%;
+  }
+
+  .zb {
+    position: relative;
+    height: 9%;
+  }
+
+  .zb .olmo-free {
+    bottom: 0;
+  }
+
+
+
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .our-projects-container {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .our-projects-title h2 {
+    font-size:40px;
+    width: 80%;
+  }
+
+  .our-projects-title p {
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .our-projects-group {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 60px;
+  }
+
+  .our-projects-info-group {
+    display: flex;
+    height: 90%;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .our-project-item {
+    height: 29%;
+    width: 47%;
+  }
+
+  .our-project-item-1 {
+    height: 34%;
+  }
+
+  .our-project-item-4 {
+    height: 34%;
+    margin-top: -100px;
+  }
+
+  .our-project-item-3 {
+    margin-top: 0;
+  }
+
+  .our-project-item .project-info {
+    padding: 10px;
+  }
+
+  .our-project-item .project-info h3 {
+    font-size: 22px;
+    width: 60%;
+  }
+
+  .our-project-item .project-info p {
+    font-size: 18px;
+  }
+
+  .our-project-item .project-info span {
+    font-size: 26px;
+  }
+
+  .our-projects-pagination {
+    height: 1%;
+  }
+
+  .zb {
+    position: relative;
+    height: 9%;
+  }
+
+  .zb .olmo-free {
+    bottom: 0;
+  }
+
+
+
+
+}

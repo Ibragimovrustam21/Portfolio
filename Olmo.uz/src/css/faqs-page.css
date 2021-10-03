@@ -1,0 +1,395 @@
+/* faqs */
+.faqs {
+  height: 1000px;
+  background-color: #fff;
+}
+
+.faqs-container {
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+}
+
+.faqs-container h1 {
+  margin-top: 20px;
+  font-size: 45px;
+  width: 60%;
+  text-align: center;
+}
+
+.faqs-container h3 {
+  margin-top: 30px;
+}
+
+.f-questions {
+  display: flex;
+}
+
+.f-questions .f-child {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 30px;
+}
+
+.f-questions .f-child h2 {
+  font-size: 26px;
+  margin: 20px 0;
+}
+
+.f-questions .f-child p {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.f-questions .f-child ul {
+  padding: 0 20px;
+}
+
+.f-questions .f-child ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.faqs-page-header {
+  height: 400px;
+  width: 100%;
+  background: url('https://dsathemes.com/html/olmo_1.3/files/images/faqs-page.jpg');
+  background-size: 100% 100%;
+  background-position: center center;
+  position: relative;
+}
+
+.faqs-page-title h2 {
+  font-size: 45px;
+  color: #fff;
+}
+
+.faqs-page-title p {
+  width: 60%;
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+
+}
+
+.faqs-page-header svg {
+  position: absolute;
+  bottom: 0;
+}
+
+.faqs-post-questions .blog-listing-olmo-free {
+  margin-top: 0;
+}
+
+.faqs-post-questions .blog-listing-olmo-free .olmo-free {
+  background-color: #fbfbfb;
+}
+
+.faqs-post-questions .blog-listing-olmo-free .olmo-free .olmo-free-title h2 {
+  font-size: 30px;
+}
+
+/* adaptive version  */
+
+@media (min-width:0) and (max-width:446.9px) {
+  .faqs {
+    height: auto;
+  }
+
+  .faqs-container {
+    width: 100%;
+  }
+
+  .faqs-container h1 {
+    font-size: 26px;
+    width: 90%;
+    display: none;
+  }
+
+  .f-questions {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+  }
+
+  .f-questions .f-child {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .f-questions .f-child h2 {
+    font-size: 20px;
+  }
+
+  .f-questions .f-child p {
+    font-size: 16px;
+  }
+
+  .f-questions .f-child ul {
+    padding: 0 20px;
+  }
+
+  .f-questions .f-child ul li {
+    font-size: 16px;
+  }
+
+  .faqs-page-header {
+    height: 200px;
+
+    padding-top: 90px;
+  }
+
+  .faqs-page-title h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .faqs-page-title p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .faqs-page-header svg {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free {
+    margin-top: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free {
+    background-color: #fbfbfb;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free .olmo-free-title h2 {
+    font-size: 30px;
+  }
+
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .faqs {
+    height: auto;
+  }
+
+  .faqs-container {
+    width: 90%;
+  }
+
+  .faqs-container h1 {
+    display: none;
+  }
+
+  .f-questions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .f-questions .f-child {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .f-questions .f-child h2 {
+    font-size: 22px;
+  }
+
+  .f-questions .f-child p {
+    font-size: 17px;
+  }
+
+  .f-questions .f-child ul {
+    padding: 0 20px;
+  }
+
+  .f-questions .f-child ul li {
+    font-size: 17px;
+  }
+
+  .faqs-page-header {
+    height: 200px;
+    padding-top: 70px;
+  }
+
+  .faqs-page-title h2 {
+    font-size: 32px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .faqs-page-title p {
+    width: 70%;
+    font-size: 15px;
+  }
+
+  .faqs-page-header svg {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free {
+    margin-top: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free {
+    background-color: #fbfbfb;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free .olmo-free-title h2 {
+    font-size: 30px;
+  }
+
+
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .faqs {
+    height: auto;
+  }
+
+  .faqs-container {
+    width: 90%;
+  }
+
+  .faqs-container h1 {
+    display: none;
+  }
+
+  .f-questions {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .f-questions .f-child {
+    width: 100%;
+    padding: 30px;
+  }
+
+  .f-questions .f-child h2 {
+    font-size: 24px;
+  }
+
+  .f-questions .f-child p {
+    font-size: 18px;
+  }
+
+  .f-questions .f-child ul {
+    padding: 0 20px;
+  }
+
+  .f-questions .f-child ul li {
+    font-size: 18px;
+  }
+
+  .faqs-page-header {
+    height: 250px;
+    padding-top: 70px;
+  }
+
+  .faqs-page-title h2 {
+    font-size: 34px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .faqs-page-title p {
+    width: 70%;
+    font-size: 18px;
+  }
+
+  .faqs-page-header svg {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free {
+    margin-top: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free {
+    background-color: #fbfbfb;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free .olmo-free-title h2 {
+    font-size: 30px;
+  }
+
+
+
+
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .faqs {
+    height: auto;
+  }
+
+  .faqs-container {
+    width: 90%;
+  }
+
+  /* .faqs-container h1 {
+    display: none;
+  } */
+
+  .f-questions {
+    display: flex;
+  }
+
+  .f-questions .f-child {
+    width: 50%;
+    padding: 30px;
+  }
+
+  .f-questions .f-child h2 {
+    font-size: 25px;
+  }
+
+  .f-questions .f-child p {
+    font-size:18px;
+  }
+
+  .f-questions .f-child ul {
+    padding: 0 20px;
+  }
+
+  .f-questions .f-child ul li {
+    font-size: 18px;
+  }
+
+  .faqs-page-header {
+    height: 250px;
+    padding-top: 70px;
+  }
+
+  .faqs-page-title h2 {
+    font-size: 38px;
+    text-align: center;
+    width: 80%;
+  }
+
+  .faqs-page-title p {
+    width: 70%;
+    font-size: 18px;
+  }
+
+  .faqs-page-header svg {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free {
+    margin-top: 0;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free {
+    background-color: #fbfbfb;
+  }
+
+  .faqs-post-questions .blog-listing-olmo-free .olmo-free .olmo-free-title h2 {
+    font-size: 30px;
+  }
+
+}

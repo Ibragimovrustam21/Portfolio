@@ -36,11 +36,9 @@ export const Settings = () => {
         dispatch({ type: 'SET_AUTHORIZED', payload: response.user })
         setIsSuccessChanged(true)
     }, [response,dispatch])
-    console.log(state);
 
     useEffect(() => {
         if (!state.currentUser) return
-
         setImgUrl(state.currentUser.image || '')
         setBio(state.currentUser.bio || '')
         setEmail(state.currentUser.email)
@@ -114,7 +112,6 @@ export const Settings = () => {
                         </form>
                     </div>
                 </div>
-
             )}
         </>
     )

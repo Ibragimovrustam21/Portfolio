@@ -10,6 +10,7 @@ class AboutUs extends Component {
         $(document).on('click', '.about-menu div', function () {
             $(this).addClass('active').siblings().removeClass('active')
         })
+
         return (
             <div className='row About-Company'>
                 <div className='col-lg-12 p-5 '>
@@ -80,9 +81,6 @@ class AboutUs extends Component {
                                     <p className='mx-3'>Facebook manzilimiz</p>
                                 </div>
                             </a>
-
-
-
                         </div>
                         <h4 className='my-4 fw-bold'>Bizning raqamlarda</h4>
                         <div className='about_us_card d-flex  flex-wrap mt-3'>
@@ -111,7 +109,6 @@ class AboutUs extends Component {
                                 </p>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -119,4 +116,4 @@ class AboutUs extends Component {
     }
 }
 
-export default AboutUs;
+export default AboutUs

@@ -1,0 +1,359 @@
+.about-title {
+  text-align: center;
+  height: 130vh;
+  position: relative;
+  background-color: #f6f7f8;
+}
+
+.about-title h2 {
+  font-size: 45px;
+}
+
+.about-title p {
+  font-size: 20px;
+  width: 60%;
+}
+
+/* .speciesGroup-block {
+  margin-top: 160px;
+} */
+
+.about-photos {
+  width: 85%;
+  margin: 0 auto;
+  margin: 20px 0;
+  height: 350px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-photos img {
+  height: 100%;
+}
+
+.start-online-business {
+  flex-direction: row-reverse;
+}
+
+.about-us .companys {
+  margin-top: 40px;
+}
+
+.get-started-about {
+  height: 350px;
+  border-radius: 20px;
+  background: url('https://dsathemes.com/html/olmo_1.3/files/images/bg-04.jpg') no-repeat;
+  background-size: cover;
+  width: 80%;
+  margin: 0 auto;
+  background-position: center center;
+
+}
+
+.get-started-about h2 {
+  font-size: 45px;
+}
+
+.get-started-about p,
+.get-started-about h2 {
+  color: #fff;
+}
+
+.get-started-about p {
+  width: 60%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+.get-started-about button:hover{
+  color: #fff;
+}
+/* adaptive */
+@media (min-width:0) and (max-width:446.9px) {
+  .about-us {
+    background-color: greenyellow;
+  }
+
+  .about-title {
+    text-align: center;
+    height: auto;
+    position: relative;
+    background-color: #f6f7f8;
+    padding-top: 120px;
+  }
+
+  .about-title h2 {
+    font-size: 32px;
+    width: 100%;
+
+  }
+
+  .about-title p {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .about-photos {
+    width: 90%;
+    margin: 0 auto;
+    margin: 20px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+
+  .about-photos img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .start-online-business {
+    flex-direction: column;
+  }
+
+  .about-us .companys {
+    margin-top: 40px;
+  }
+
+  .get-started-about {
+    height: 300px;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .get-started-about h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .get-started-about p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .get-started-about button {
+    margin-top: 10px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .about-us {
+    background-color: lightseagreen;
+  }
+
+  .about-title {
+    text-align: center;
+    height: auto;
+    position: relative;
+    background-color: #f6f7f8;
+    padding-top: 120px;
+  }
+
+  .about-title h2 {
+    font-size: 34px;
+    width: 100%;
+
+  }
+
+  .about-title p {
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .speciesGroup-block {
+    margin-top: 40px;
+  }
+
+  .about-photos {
+    width: 90%;
+    margin: 0 auto;
+    margin: 20px 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+
+  .about-photos img {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .start-online-business {
+    flex-direction: column;
+  }
+
+  .about-us .companys {
+    margin-top: 40px;
+  }
+
+  .get-started-about {
+    height: 300px;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .get-started-about h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .get-started-about p {
+    width: 90%;
+    font-size: 17px;
+  }
+
+  .get-started-about button {
+    margin-top: 10px;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .about-us {
+    background-color: violet;
+  }
+
+  .about-title {
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    background-color: #f6f7f8;
+    padding-top: 120px;
+  }
+
+  .about-title h2 {
+    font-size: 36px;
+    width: 80%;
+
+  }
+
+  .about-title p {
+    font-size: 18px;
+    width: 80%;
+  }
+
+  .speciesGroup-block {
+    margin-top: 40px;
+  }
+
+  .about-photos {
+    width: 90%;
+    margin: 0 auto;
+    margin: 20px 0;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+
+  .about-photos img {
+    width: 95%;
+  }
+
+  .start-online-business {
+    flex-direction: column;
+  }
+
+  .about-us .companys {
+    margin-top: 40px;
+  }
+
+  .get-started-about {
+    height: 300px;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .get-started-about h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .get-started-about p {
+    width: 50%;
+    font-size: 20px;
+  }
+
+  .get-started-about button {
+    margin-top: 10px;
+  }
+
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .about-us {
+    background-color: palegreen;
+  }
+
+  .about-title {
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    background-color: #f6f7f8;
+    padding-top: 120px;
+  }
+
+  .about-title h2 {
+    font-size: 40px;
+    width: 80%;
+
+  }
+
+  .about-title p {
+    font-size: 20px;
+    width: 60%;
+  }
+
+  .speciesGroup-block {
+    margin-top: 40px;
+  }
+
+  .about-photos {
+    width: 90%;
+    margin: 0 auto;
+    margin: 20px 0;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+
+  .about-photos img {
+    width: 95%;
+  }
+
+ 
+
+  .about-us .companys {
+    margin-top: 40px;
+  }
+
+  .get-started-about {
+    height: 300px;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .get-started-about h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .get-started-about p {
+    width: 60%;
+    font-size: 18px;
+  }
+
+  .get-started-about button {
+    margin-top: 10px;
+  }
+
+}

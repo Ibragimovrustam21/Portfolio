@@ -1,0 +1,101 @@
+.features {
+  padding-top: 120px;
+}
+
+.features .use-technologies {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 50%;
+}
+
+.features .get-started-card .customer-numbers {
+  background-color: #0fbc49;
+}
+
+.features .get-started-card p span {
+  color: #0fbc49;
+}
+
+.features .use-technologies span {
+  font-size: 40px;
+  margin-right: 10px;
+  color: #6c757d;
+}
+
+.make-it-simpler {
+  background: url('https://dsathemes.com/html/olmo_1.3/files/images/bg-04.jpg') no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.make-it-simpler p,
+.make-it-simpler h1 {
+  color: #fff;
+}
+
+.opportunity {
+  height: 130px;
+  width: 100%;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgb(5 5 5 / 5%) 0px 15px 20px 0px;
+  border-color: rgb(239, 239, 239) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.opportunity p {
+  margin: 7px 0;
+}
+
+.more-productivity {
+  margin-top: 100px;
+  background: #f6f7f8;
+}
+
+.more-productivity h1 {
+  color: #2F353E;
+}
+
+.more-productivity p {
+  color: #6c757d;
+}
+
+/* adaptive */
+
+
+@media (min-width:0) and (max-width:446.9px) {
+  .opportunity {
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width:447px) and (max-width:768.9px){
+  .opportunity {
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+}
+@media (min-width:769px) and (max-width:989.9px){
+  .opportunity {
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 80%;
+  }
+}
+@media (min-width:990px) and (max-width:1199.9px){
+  .opportunity {
+    height: auto;
+    margin-bottom: 40px;
+  }
+}

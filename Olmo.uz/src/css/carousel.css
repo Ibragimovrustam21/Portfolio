@@ -1,0 +1,387 @@
+.carousel-card-item {
+  height: auto;
+  width: 90% !important;
+  margin: 0 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  box-sizing: border-box;
+  padding: 30px;
+  box-shadow: rgb(5 5 5 / 5%) 10px 10px 15px 0px;
+  position: relative;
+  cursor: pointer;
+
+}
+
+.carousel-start {
+  width: 100%;
+  height: 70%;
+}
+
+.slider {
+  margin: 0 auto;
+  width: 90%;
+  height: 700px;
+  justify-content: flex-start;
+}
+
+.slider-title {
+  height: 30%;
+  justify-content: flex-end;
+
+}
+
+.slider-title h2 {
+  font-size: 50px;
+
+}
+
+.slider-title p {
+  width: 60%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.carousel-card-item p {
+  font-size: 20px;
+}
+
+.carousel-user-info {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+
+.carousel-user-info .carousel-user-img {
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-user-info .carousel-user-img img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.carousel-user-info .carousel-user-name {
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.carousel-user-info .carousel-user-name p {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.carousel-user-info .carousel-user-name span {
+  font-size: 18px;
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+
+  .slider {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .slider-title {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .slider-title h2 {
+    font-size: 35px;
+  }
+
+  .slider-title p {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .carousel-card-item p {
+    font-size: 18px;
+    width: 100%;
+    text-align: start;
+    line-height: 1.5;
+  }
+
+  .carousel-card-item {
+    height: auto;
+    width: 90% !important;
+    margin: 0 20px;
+    border-radius: 5px;
+  }
+
+  .carousel-user-info {
+    display: flex;
+    width: 100%;
+    height: 100px;
+  }
+
+  .carousel-user-info i {
+    display: none;
+  }
+
+  .carousel-user-info .carousel-user-img {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-user-info .carousel-user-img img {
+    height: 50px;
+    width: 50px;
+  }
+
+  .carousel-user-info .carousel-user-name {
+    width: 80%;
+    text-align: start;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .carousel-user-info .carousel-user-name p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+
+  .carousel-user-info .carousel-user-name span {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+
+  .slider {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .slider-title {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .slider-title h2 {
+    font-size: 38px;
+  }
+
+  .slider-title p {
+    width: 90%;
+    font-size: 17px;
+  }
+
+  .carousel-card-item p {
+    font-size: 18px;
+    width: 100%;
+    text-align: start;
+    line-height: 1.5;
+  }
+
+  .carousel-card-item {
+    height: auto;
+    width: 90% !important;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+
+  .carousel-user-info {
+    display: flex;
+    width: 100%;
+    height: 100px;
+  }
+
+  .carousel-user-info i {
+    display: none;
+  }
+
+  .carousel-user-info .carousel-user-img {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-user-info .carousel-user-img img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .carousel-user-info .carousel-user-name {
+    width: 80%;
+    text-align: start;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .carousel-user-info .carousel-user-name h3 {
+    font-size: 22px;
+  }
+
+  .carousel-user-info .carousel-user-name p {
+    font-size: 17px;
+    margin: 5px 0;
+  }
+
+  .carousel-user-info .carousel-user-name span {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .slider {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .slider-title {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .slider-title h2 {
+    font-size: 42px;
+  }
+
+  .slider-title p {
+    width: 90%;
+    font-size: 18px;
+  }
+
+  .carousel-card-item p {
+    font-size: 18px;
+    width: 100%;
+    text-align: start;
+    line-height: 1.5;
+  }
+
+  .carousel-card-item {
+    height: auto;
+    width: 90% !important;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+
+  .carousel-user-info {
+    display: flex;
+    width: 100%;
+    height: 100px;
+  }
+
+  .carousel-user-info i {
+    display: none;
+  }
+
+  .carousel-user-info .carousel-user-img {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-user-info .carousel-user-img img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .carousel-user-info .carousel-user-name {
+    width: 80%;
+    text-align: start;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .carousel-user-info .carousel-user-name h3 {
+    font-size: 23px;
+  }
+
+  .carousel-user-info .carousel-user-name p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .carousel-user-info .carousel-user-name span {
+    font-size: 18px;
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .slider {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+  }
+
+  .slider-title {
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .slider-title h2 {
+    font-size: 45px;
+  }
+
+  .slider-title p {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .carousel-card-item p {
+    font-size: 19px;
+    width: 100%;
+    text-align: start;
+    line-height: 1.5;
+  }
+
+  .carousel-card-item {
+    height: auto;
+    width: 90% !important;
+    margin: 20px 20px;
+    padding: 20px;
+  }
+
+  .carousel-user-info {
+    display: flex;
+    width: 100%;
+    height: 100px;
+  }
+
+  .carousel-user-info i {
+    display: none;
+  }
+
+  .carousel-user-info .carousel-user-img {
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-user-info .carousel-user-img img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .carousel-user-info .carousel-user-name {
+    width: 80%;
+    text-align: start;
+    box-sizing: border-box;
+    padding-left: 15px;
+  }
+
+  .carousel-user-info .carousel-user-name h3 {
+    font-size: 24px;
+  }
+
+  .carousel-user-info .carousel-user-name p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+  .carousel-user-info .carousel-user-name span {
+    font-size: 18px;
+  }
+}

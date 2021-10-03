@@ -1,5 +1,6 @@
 import { Route, Switch } from "react-router";
 import { BrowserRouter } from "react-router-dom";
+import { Redirect } from "react-router-dom/cjs/react-router-dom.min";
 import { Navbar } from "./component/Navbar";
 import { UserChecked } from "./component/UserChecked";
 import { UserContextProvider } from "./component/UserContext";
@@ -21,16 +22,17 @@ function App() {
           <Navbar />
           <Switch>
             <Route path='/' exact component={Home} />
-            <Route path='/feed'  component={YourFeed} />
-            <Route path='/tags/:slug'  component={TagFeed} />
-            <Route path='/articles/new'  component={CreatePost} />
-            <Route path='/articles/:slug/edit'  component={ArticlesEdit} />
-            <Route path='/articles/:slug'  component={Articles} />
+            <Route path='/feed' component={YourFeed} />
+            <Route path='/tags/:slug' component={TagFeed} />
+            <Route path='/articles/new' component={CreatePost} />
+            <Route path='/articles/:slug/edit' component={ArticlesEdit} />
+            <Route path='/articles/:slug' component={Articles} />
             <Route path='/profile/:slug' component={ProfileUser} />
             <Route path='/profile/:slug/favorites' component={ProfileUser} />
-            <Route path='/settings'  component={Settings} />
+            <Route path='/settings' component={Settings} />
             <Route path='/register' component={Authorization} />
             <Route path='/login' component={Authorization} />
+            <Redirect to='/' />
           </Switch>
         </BrowserRouter>
       </UserChecked>

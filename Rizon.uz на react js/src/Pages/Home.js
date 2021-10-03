@@ -142,8 +142,6 @@ class Home extends Component {
                                 <span className="fas fa-chevron-right fa-lg" aria-hidden="true"></span>
                             </button>
                         </div>
-
-
                     </div>
                 </div>
                 <div className='row dori_card_link' >

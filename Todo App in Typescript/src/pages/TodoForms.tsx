@@ -16,14 +16,12 @@ export const TodoForms: React.FC = () => {
     localStorage.setItem('todo', JSON.stringify(value))
   }, [value])
 
-
   const onAdd = (title: string) => {
     const newTitle: ITitle = {
       title: title,
       id: Date.now(),
       completed: false
     }
-
     setValue(prev => [newTitle, ...prev])
   }
 

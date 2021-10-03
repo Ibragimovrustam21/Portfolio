@@ -5,10 +5,7 @@ import { About } from './pages/About'
 import { TodoForms } from './pages/TodoForms'
 import { Navbar } from './components/Navbar'
 
-
 export const App: React.FC = () => {
-
-
   return (
     <BrowserRouter>
       <Navbar />

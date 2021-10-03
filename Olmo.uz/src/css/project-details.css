@@ -1,0 +1,472 @@
+.project-details-container {
+  margin: 0 auto;
+  width: 80%;
+  padding-top: 150px;
+}
+
+.project-details-container .project-details-title h2 {
+  font-size: 55px;
+  width: 80%;
+}
+
+.project-details-container .project-details-title div {
+  width: 80%;
+  display: flex;
+}
+
+.project-details-container .project-details-title div h4 {
+  font-size: 22px;
+  margin-right: 30px;
+
+}
+
+.project-details-container .project-details-title div a {
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s linear;
+}
+
+.project-details-container .project-details-title div a:hover {
+  color: darkred;
+  transition: all 0.3s linear;
+}
+
+.project-details-section-1 h3 {
+  margin: 20px 0;
+}
+
+.project-details-section-1 ul li {
+  font-size: 18px;
+}
+
+.project-details-section-1 .sec-img-1 {
+  margin-top: 40px;
+  width: 80%;
+}
+
+.project-details-section-1 .sec-img-2 {
+  height: 500px;
+  width: 100%;
+}
+
+.project-details-section-1 .sec-img-2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.project-details-section-text {
+  width: 80%;
+}
+
+.project-details-section-text p {
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.project-details-section-text h3 {
+  font-size: 25px;
+}
+
+.project-details-section-text .section-img {
+  display: flex;
+  justify-content: space-between;
+  height: 350px;
+  width: 100%;
+  margin: 0;
+}
+
+.project-details-section-text .section-img div {
+  width: 47%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.project-details-section-text .section-img img {
+  width: 100%;
+  height: 100%;
+
+}
+
+.project-details-section-text a {
+  font-size: 30px;
+  text-decoration: none;
+  text-align: right;
+}
+
+/* adaptive */
+@media (min-width:0) and (max-width:446.9px) {
+  .project-details-container {
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title {
+    box-sizing: border-box;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-details-container .project-details-title h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-details-container .project-details-title div h4 {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .project-details-container .project-details-title div a {
+    font-size: 18px;
+  }
+
+  .project-details-section-1 .sec-img-1 {
+    margin-top: 5px;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .project-details-section-1 ul {
+    padding-left: 20px;
+  }
+
+  .project-details-section-1 ul li {
+    font-size: 18px;
+  }
+
+  .project-details-section-1 .sec-img-1 img {
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 img {
+    width: 100%;
+  }
+
+  .project-details-section-text {
+    width: 90%;
+  }
+
+  .project-details-section-text p {
+    font-size: 18px;
+  }
+
+  .project-details-section-text h3 {
+    font-size: 22px;
+  }
+
+  .project-details-section-text .section-img {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details-section-text .section-img div {
+    width: 100%;
+  }
+
+  .project-details-section-text .section-img img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .project-details-section-text a {
+    font-size: 24px;
+    text-decoration: none;
+    text-align: right;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .project-details-container {
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-details-container .project-details-title h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-details-container .project-details-title div h4 {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+
+  .project-details-container .project-details-title div a {
+    font-size: 18px;
+  }
+
+  .project-details-section-1 .sec-img-1 {
+    margin-top: 5px;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .project-details-section-1 ul {
+    padding-left: 20px;
+  }
+
+  .project-details-section-1 ul li {
+    font-size: 18px;
+  }
+
+  .project-details-section-1 .sec-img-1 img {
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 img {
+    width: 100%;
+  }
+
+  .project-details-section-text {
+    width: 90%;
+  }
+
+  .project-details-section-text p {
+    font-size: 18px;
+  }
+
+  .project-details-section-text h3 {
+    font-size: 22px;
+  }
+
+  .project-details-section-text .section-img {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details-section-text .section-img div {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .project-details-section-text .section-img img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .project-details-section-text a {
+    font-size: 24px;
+    text-decoration: none;
+    text-align: right;
+  }
+
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .project-details-container {
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .project-details-container .project-details-title h2 {
+    font-size: 34px;
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-details-container .project-details-title div h4 {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .project-details-container .project-details-title div a {
+    font-size: 18px;
+  }
+
+  .project-details-section-1 .sec-img-1 {
+    margin-top: 10px;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .project-details-section-1 ul {
+    padding-left: 20px;
+  }
+
+  .project-details-section-1 ul li {
+    font-size: 18px;
+  }
+
+  .project-details-section-1 .sec-img-1 img {
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 img {
+    width: 100%;
+  }
+
+  .project-details-section-text {
+    width: 90%;
+  }
+
+  .project-details-section-text p {
+    font-size: 18px;
+  }
+
+  .project-details-section-text h3 {
+    font-size: 24px;
+  }
+
+  .project-details-section-text .section-img {
+    flex-direction: column;
+    height:auto;
+    width: 100%;
+  }
+
+  .project-details-section-text .section-img div {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .project-details-section-text .section-img img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .project-details-section-text a {
+    font-size: 24px;
+    text-decoration: none;
+    text-align: right;
+  }
+
+
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .project-details-container {
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .project-details-container .project-details-title h2 {
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .project-details-container .project-details-title div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-details-container .project-details-title div h4 {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
+  .project-details-container .project-details-title div a {
+    font-size: 18px;
+  }
+  .project-details-section-1{
+    width: 90%;
+    margin: 0 auto;
+  }
+  .project-details-section-1 .sec-img-1 {
+    margin-top: 10px;
+    width: 90%;
+    overflow: hidden;
+  }
+
+  .project-details-section-1 ul {
+    padding-left: 20px;
+  }
+
+  .project-details-section-1 ul li {
+    font-size: 18px;
+  }
+
+  .project-details-section-1 .sec-img-1 img {
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 {
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details-section-1 .sec-img-2 img {
+    width: 100%;
+  }
+
+  .project-details-section-text {
+    width: 90%;
+  }
+
+  .project-details-section-text p {
+    font-size: 18px;
+  }
+
+  .project-details-section-text h3 {
+    font-size: 27px;
+  }
+
+  .project-details-section-text .section-img {
+    height: auto;
+    width: 100%;
+  }
+
+  .project-details-section-text .section-img div {
+    width: 47%;
+    margin-top: 10px;
+  }
+
+  .project-details-section-text .section-img img {
+    width: 100%;
+    height: 100%;
+
+  }
+
+  .project-details-section-text a {
+    font-size: 26px;
+    text-decoration: none;
+    text-align: right;
+  }
+}

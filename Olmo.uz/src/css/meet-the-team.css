@@ -1,0 +1,697 @@
+.meet-the-team-container {
+  margin: 0 auto;
+  height: 90%;
+  width: 80%;
+  justify-content: flex-start;
+}
+
+.meet-the-team-title {
+  padding-top: 140px;
+}
+
+.meet-the-team-title h4 {
+  font-size: 20px;
+}
+
+.meet-the-team-title h2 {
+  font-size: 45px;
+  width: 60%;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.team-members {
+  height: 900px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.team-members-item {
+  width: 24%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.team-members-item-img {
+  height: 65%;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.team-members-item-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.team-members-item-info h3 {
+  font-size: 25px;
+  margin-top: 30px;
+}
+
+.team-members-item-info p {
+  font-size: 20px;
+  margin: 0;
+}
+
+.team-members-item-info a {
+  text-decoration: none;
+  color: #6c757d;
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+/* say-about-OLMO */
+.say-about-OLMO {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  background-image: linear-gradient(180deg, rgba(244, 244, 249, .8) 50%, rgba(244, 244, 249, .05) 100%);
+  padding-top: 60px;
+}
+
+.members-about-OLMO {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: flex-start;
+}
+
+.what-people-say {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 20px;
+  align-items: flex-start;
+}
+
+.what-people-say p {
+  margin: 20px 0;
+  font-size: 20px;
+
+}
+
+.members-about-OLMO .members-about-item {
+  height: 200px;
+  width: 85%;
+  display: flex;
+  margin: 10px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: rgb(5 5 5 / 5%) 0px 10px 15px 0px;
+}
+
+.members-about-OLMO .members-about-item .members-item-img {
+  width: 20%;
+}
+
+.members-about-OLMO .members-about-item .members-item-img img {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.members-about-OLMO div:nth-child(2) {
+  margin-left: 70px;
+}
+
+.members-about-OLMO .members-about-item .members-item-info {
+  width: 80%;
+  margin: 0;
+  align-items: flex-start;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.members-about-OLMO .members-about-item .members-item-info h3 span {
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.members-about-OLMO .members-about-item .members-item-info p {
+  font-size: 18px;
+}
+
+/* adaptive version */
+@media (min-width:0) and (max-width:446.9px) {
+  .meet-the-team-container {
+    height: auto;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .meet-the-team-title {
+    padding-top: 140px;
+  }
+
+  .meet-the-team-title h4 {
+    font-size: 16px;
+  }
+
+  .meet-the-team-title h2 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .team-members {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-members-item {
+    width: 100%;
+    height: 500px;
+  }
+
+  .team-members-item-img {
+    height: 65%;
+  }
+
+  .team-members-item-img img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .team-members-item-info h3 {
+    font-size: 22px;
+  }
+
+  .team-members-item-info p {
+    font-size: 18px;
+  }
+
+  .team-members-item-info a {
+    font-size: 16px;
+  }
+
+  /* say about olmo */
+  .say-about-OLMO {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .members-about-OLMO {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .what-people-say {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .what-people-say h2 {
+    font-size: 22px;
+  }
+
+  .what-people-say p {
+    margin: 10px 0;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .what-people-say .btn-outline {
+    padding: 12px 20px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .members-about-OLMO .members-about-item {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-img {
+    width: 20%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-img img {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: 10px;
+  }
+
+  .members-about-OLMO div:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 span {
+    font-size: 12px;
+    color: #6c757d;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info p {
+    font-size: 16px;
+  }
+
+  /* companys */
+  .companys {
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .companys h3 {
+    text-align: center;
+    font-size: 16px;
+
+  }
+
+  .companys-group {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .companys-group img {
+    width: 47%;
+    height: 20%;
+  }
+
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+  .meet-the-team-container {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .meet-the-team-title {
+    padding-top: 140px;
+  }
+
+  .meet-the-team-title h4 {
+    font-size: 16px;
+  }
+
+  .meet-the-team-title h2 {
+    font-size: 30px;
+    width: 90%;
+  }
+
+  .team-members {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team-members-item {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .team-members-item-img {
+    height: 65%;
+  }
+
+  .team-members-item-info h3 {
+    font-size: 23px;
+  }
+
+  .team-members-item-info p {
+    font-size: 19px;
+  }
+
+  .team-members-item-info a {
+    font-size: 17px;
+  }
+
+  /* say about olmo */
+  .say-about-OLMO {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .members-about-OLMO {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .what-people-say {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .what-people-say h2 {
+    font-size: 22px;
+  }
+
+  .what-people-say p {
+    margin: 10px 0;
+    font-size: 15px;
+    width: 100%;
+  }
+
+  .what-people-say .btn-outline {
+    padding: 12px 20px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .members-about-OLMO .members-about-item {
+    height: auto;
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-img img {
+    height: 60px;
+    width: 60px;
+  }
+
+  .members-about-OLMO div:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info {
+    width: 100%;
+    text-align: center;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 {
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 span {
+    font-size: 14px;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info p {
+    font-size: 15px;
+  }
+
+  /* companys */
+  .companys {
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .companys h3 {
+    text-align: center;
+    font-size: 22px;
+  }
+
+  .companys-group {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .companys-group img {
+    width: 35%;
+    height: 20%;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+  .meet-the-team-container {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .meet-the-team-title {
+    padding-top: 140px;
+  }
+
+  .meet-the-team-title h4 {
+    font-size: 18px;
+  }
+
+  .meet-the-team-title h2 {
+    font-size: 34px;
+    width: 80%;
+  }
+
+  .team-members {
+    height: auto;
+    width: 100%;
+    display: flex;
+  }
+
+  .team-members-item {
+    width: 32%;
+    margin-bottom: 10px;
+  }
+
+  .team-members-item-img {
+    height: 65%;
+  }
+
+  .team-members-item-info h3 {
+    font-size: 23px;
+  }
+
+  .team-members-item-info p {
+    font-size: 19px;
+  }
+
+  .team-members-item-info a {
+    font-size: 17px;
+  }
+
+  /* say about olmo */
+  .say-about-OLMO {
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .members-about-OLMO {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .what-people-say {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .what-people-say h2 {
+    font-size: 24px;
+  }
+
+  .what-people-say p {
+    margin: 10px 0;
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .what-people-say .btn-outline {
+    padding: 14px 22px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .members-about-OLMO .members-about-item {
+    height: auto;
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-img img {
+    height: 70px;
+    width: 70px;
+  }
+
+  .members-about-OLMO div:nth-child(2) {
+    margin-left: 0;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info {
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 span {
+    font-size: 15px;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info p {
+    font-size: 16px;
+  }
+
+  /* companys */
+  .companys {
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .companys h3 {
+    font-size: 24px;
+  }
+
+  .companys-group {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .meet-the-team-container {
+    height: auto;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .meet-the-team-title {
+    padding-top: 140px;
+  }
+
+  .meet-the-team-title h4 {
+    font-size: 18px;
+  }
+
+  .team-members {
+    height: auto;
+    width: 100%;
+  }
+
+  .team-members-item {
+    width: 24%;
+    margin-bottom: 10px;
+  }
+
+  .team-members-item-img {
+    height: 65%;
+  }
+
+  .team-members-item-info h3 {
+    font-size: 23px;
+  }
+
+  .team-members-item-info p {
+    font-size: 19px;
+  }
+
+  .team-members-item-info a {
+    font-size: 17px;
+  }
+
+  /* say about olmo */
+  .say-about-OLMO {
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .members-about-OLMO {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+  }
+
+  .what-people-say {
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .what-people-say h2 {
+    font-size: 24px;
+  }
+
+  .what-people-say p {
+    margin: 10px 0;
+    font-size: 17px;
+    width: 100%;
+  }
+
+  .what-people-say .btn-outline {
+    padding: 14px 22px;
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .members-about-OLMO .members-about-item {
+    height: auto;
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-img img {
+    height: 70px;
+    width: 70px;
+  }
+
+
+  .members-about-OLMO .members-about-item .members-item-info {
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info h3 span {
+    font-size: 15px;
+  }
+
+  .members-about-OLMO .members-about-item .members-item-info p {
+    font-size: 16px;
+  }
+
+  /* companys */
+  .companys {
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+
+  .companys h3 {
+    font-size: 22px;
+  }
+
+  .companys-group {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 20px;
+  }
+
+}

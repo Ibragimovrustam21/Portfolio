@@ -18,10 +18,11 @@ export const TagFeed = (props) => {
     });
     const apiUrl = `/articles?${queryString}`
     const [{ isLoading, response, error }, doFetch] = useFetch(apiUrl)
-    console.log();
+
     useEffect(() => {
         doFetch()
     }, [doFetch, currentPage])
+    
     return (
         <div>
             <div className='banner'>

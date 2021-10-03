@@ -1,0 +1,195 @@
+.terms {
+  background-color: #fbfbfd;
+}
+
+.terms-container {
+  margin: 0 auto;
+  height: 90%;
+  width: 80%;
+  padding-top: 150px;
+  position: relative;
+
+}
+
+.terms-title {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  justify-content: flex-start;
+
+}
+
+.terms-title h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.terms-title p {
+  font-size: 20px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.terms-info {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 0 40px 240px 40px;
+}
+
+.terms-info h3 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+.terms-info ul {
+  padding-left: 20px;
+}
+
+.terms-info p,
+.terms-info ul li {
+  font-size: 18px;
+}
+
+.terms .olmo-free {
+  bottom: 0;
+}
+
+@media (min-width:0) and (max-width:446.9px) {
+
+  .terms-container {
+    width: 100%;
+    padding-top: 100px;
+  }
+
+  .terms-title {
+    padding: 0
+  }
+
+  .terms-title h1 {
+    font-size: 37px;
+  }
+
+  .terms-title p {
+    font-size: 16px;
+  }
+
+  .terms-info {
+    padding: 20px;
+  }
+
+  .terms-info h3 {
+    font-size: 25px;
+  }
+
+  .terms-info ul {
+    padding-left: 20px;
+  }
+
+  .terms-info p,
+  .terms-info ul li {
+    font-size: 16px;
+  }
+}
+
+@media (min-width:447px) and (max-width:768.9px) {
+
+  .terms-container {
+    width: 100%;
+    padding-top: 120px;
+  }
+
+  .terms-title {
+    padding: 0
+  }
+
+  .terms-title h1 {
+    font-size: 38px;
+  }
+
+  .terms-title p {
+    font-size: 17px;
+  }
+
+  .terms-info {
+    padding: 20px;
+  }
+
+  .terms-info h3 {
+    font-size: 26px;
+  }
+
+  .terms-info p,
+  .terms-info ul li {
+    font-size: 17px;
+  }
+}
+
+@media (min-width:769px) and (max-width:989.9px) {
+
+  .terms-container {
+    width: 100%;
+    padding-top: 130px;
+  }
+
+  .terms-title {
+    padding: 0
+  }
+
+  .terms-title h1 {
+    font-size: 38px;
+  }
+
+  .terms-title p {
+    font-size: 17px;
+  }
+
+  .terms-info {
+    padding: 20px;
+  }
+
+  .terms-info h3 {
+    font-size: 26px;
+  }
+
+  .terms-info p,
+  .terms-info ul li {
+    font-size: 17px;
+  }
+
+}
+
+@media (min-width:990px) and (max-width:1199.9px) {
+  .terms-container {
+    width:80%;
+    padding-top: 140px;
+  }
+
+  .terms-title {
+    padding: 0
+  }
+
+  .terms-title h1 {
+    font-size: 44px;
+  }
+
+  .terms-title p {
+    font-size: 20px;
+  }
+
+  .terms-info {
+    padding: 20px;
+  }
+
+  .terms-info h3 {
+    font-size: 28px;
+  }
+
+  .terms-info p,
+  .terms-info ul li {
+    font-size: 18px;
+  }
+
+
+}
