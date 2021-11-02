@@ -16,8 +16,11 @@ export const TodoForm: React.FC<ITodoProps> = props => {
       return alert('Поле не может быть пустым')
     }
     if (event.key === "Enter") {
-      { props.edited.id !== 0 ? props.editTitle(title, props.edited.id) : props.onAdd(title) }
-      setTitle('')
+      // { props.edited.id !== 0 ? props.editTitle(title, props.edited.id) : props.onAdd(title) }
+      return (
+        props.edited.id !== 0 ? props.editTitle(title, props.edited.id) : props.onAdd(title) 
+        setTitle('')
+      )
     }
   }
 
