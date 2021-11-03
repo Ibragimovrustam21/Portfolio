@@ -1,0 +1,44 @@
+.App {
+  height: 500px;
+  max-width: 500px;
+  border-radius: 10px;
+  background: radial-gradient(at 50% 0%, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0.3));
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
+}
+
+.App h3 {
+  margin: 0;
+  padding: 30px 0;
+}
+
+.App .qrcode_img {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.App .btn_groups {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.App .btn_groups .btn {
+  margin-right: 20px;
+}
+
+.App .btn_groups a {
+  padding: 6px 12px;
+  border-radius: 0.25rem;
+  border: 1px solid #0bd748;
+  background: #0bd748;
+  color: #fff;
+  transition: all 0.25s linear;
+}
+
+@media (min-width:769px) {
+  .App {
+    width: 500px;
+  }
+}
